@@ -1,0 +1,1673 @@
+{
+    "plots": [
+      {
+        "land_data": {
+          "date_of_instrument": "2023-09-11",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Yaw Amoah",
+              "address": "715 Market Road, Tema, Ghana"
+            },
+            {
+              "name": "Esi Osei",
+              "address": "311 Harbor Road, Tema, Ghana"
+            }
+          ],
+          "plot_id": "GHTE0001",
+          "size": 685.0,
+          "type": "Agricultural",
+          "location": "Tema",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.6716729255460825,
+                  "longitude": -0.016147655618937454
+                },
+                {
+                  "latitude": 5.673181504037365,
+                  "longitude": -0.016147655618937454
+                },
+                {
+                  "latitude": 5.673326705701293,
+                  "longitude": -0.014317142067507517
+                },
+                {
+                  "latitude": 5.6716729255460825,
+                  "longitude": -0.015054084945216996
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 42.6
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 48.2
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 45.0
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 48.3
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 685.0,
+            "licensed_surveyor_number": "LS869076",
+            "date_of_letter": "2023-07-28",
+            "regional_number": "GR38897"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-10-23",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Efua Sarpong",
+              "address": "99 Harbor Road, Cape Coast, Ghana"
+            },
+            {
+              "name": "Akua Wiredu",
+              "address": "160 Liberation Road, Cape Coast, Ghana"
+            }
+          ],
+          "plot_id": "GHCA0002",
+          "size": 651.2,
+          "type": "Commercial",
+          "location": "Cape Coast",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.136147918369467,
+                  "longitude": -1.2715987394371062
+                },
+                {
+                  "latitude": 5.13754721872788,
+                  "longitude": -1.2715987394371062
+                },
+                {
+                  "latitude": 5.137853435713616,
+                  "longitude": -1.2698610854711854
+                },
+                {
+                  "latitude": 5.136147918369467,
+                  "longitude": -1.269765861177073
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 42.9
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 38.9
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 47.7
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 44.8
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 651.2,
+            "licensed_surveyor_number": "LS363538",
+            "date_of_letter": "2023-08-31",
+            "regional_number": "GR37245"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-02-06",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kwesi Owusu",
+              "address": "77 Liberation Road, Kumasi, Ghana"
+            },
+            {
+              "name": "Akua Wiredu",
+              "address": "368 University Road, Kumasi, Ghana"
+            }
+          ],
+          "plot_id": "GHKU0003",
+          "size": 645.2,
+          "type": "Mixed Use",
+          "location": "Kumasi",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 6.688798618679598,
+                  "longitude": -1.6341022485404182
+                },
+                {
+                  "latitude": 6.690610434603084,
+                  "longitude": -1.6341022485404182
+                },
+                {
+                  "latitude": 6.6898336045397295,
+                  "longitude": -1.6325572249829556
+                },
+                {
+                  "latitude": 6.688798618679598,
+                  "longitude": -1.6327206872358588
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 37.1
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 36.5
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 39.7
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 46.9
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 645.2,
+            "licensed_surveyor_number": "LS255019",
+            "date_of_letter": "2022-11-22",
+            "regional_number": "GR41457"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-11-11",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Esi Amoah",
+              "address": "406 University Road, Tema, Ghana"
+            },
+            {
+              "name": "Kojo Boateng",
+              "address": "670 Harbor Road, Tema, Ghana"
+            }
+          ],
+          "plot_id": "GHTE0004",
+          "size": 428.9,
+          "type": "Industrial",
+          "location": "Tema",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.672392303425163,
+                  "longitude": -0.01582590890869788
+                },
+                {
+                  "latitude": 5.674227652308054,
+                  "longitude": -0.01582590890869788
+                },
+                {
+                  "latitude": 5.6735573155526104,
+                  "longitude": -0.014092890044649123
+                },
+                {
+                  "latitude": 5.672392303425163,
+                  "longitude": -0.01448660779463874
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 45.3
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 38.8
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 37.3
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 43.8
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 428.9,
+            "licensed_surveyor_number": "LS649284",
+            "date_of_letter": "2023-08-22",
+            "regional_number": "GR75678"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-07-15",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kwesi Addo",
+              "address": "920 Ring Road, Cape Coast, Ghana"
+            },
+            {
+              "name": "Yaw Boateng",
+              "address": "94 Market Road, Cape Coast, Ghana"
+            }
+          ],
+          "plot_id": "GHCA0005",
+          "size": 545.7,
+          "type": "Agricultural",
+          "location": "Cape Coast",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.133006861717829,
+                  "longitude": -1.2778658905374867
+                },
+                {
+                  "latitude": 5.134759234295063,
+                  "longitude": -1.2778658905374867
+                },
+                {
+                  "latitude": 5.134400385181928,
+                  "longitude": -1.27604403677239
+                },
+                {
+                  "latitude": 5.133006861717829,
+                  "longitude": -1.2762568918309207
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 35.0
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 44.6
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 49.2
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 45.7
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 545.7,
+            "licensed_surveyor_number": "LS419299",
+            "date_of_letter": "2023-05-02",
+            "regional_number": "GR96994"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-10-13",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Yaw Boateng",
+              "address": "440 Airport Road, Tema, Ghana"
+            },
+            {
+              "name": "Yaw Boateng",
+              "address": "838 Beach Road, Tema, Ghana"
+            }
+          ],
+          "plot_id": "GHTE0006",
+          "size": 430.3,
+          "type": "Residential",
+          "location": "Tema",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.675408521803413,
+                  "longitude": -0.023621132646323175
+                },
+                {
+                  "latitude": 5.677118154449054,
+                  "longitude": -0.023621132646323175
+                },
+                {
+                  "latitude": 5.676541206605949,
+                  "longitude": -0.02230207569649827
+                },
+                {
+                  "latitude": 5.675408521803413,
+                  "longitude": -0.022198047760937742
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 45.1
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 49.8
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 45.2
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 37.1
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 430.3,
+            "licensed_surveyor_number": "LS131953",
+            "date_of_letter": "2023-08-06",
+            "regional_number": "GR38260"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-05-11",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kofi Boateng",
+              "address": "331 Liberation Road, Tamale, Ghana"
+            }
+          ],
+          "plot_id": "GHTA0007",
+          "size": 350.1,
+          "type": "Mixed Use",
+          "location": "Tamale",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 9.413274427898473,
+                  "longitude": -0.854865021229239
+                },
+                {
+                  "latitude": 9.414625313067846,
+                  "longitude": -0.854865021229239
+                },
+                {
+                  "latitude": 9.414868921179275,
+                  "longitude": -0.8534704504729662
+                },
+                {
+                  "latitude": 9.413274427898473,
+                  "longitude": -0.8538488349483815
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 37.6
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 40.5
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 44.2
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 45.3
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 350.1,
+            "licensed_surveyor_number": "LS225733",
+            "date_of_letter": "2023-03-08",
+            "regional_number": "GR17042"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-07-17",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Yaw Sarpong",
+              "address": "376 Independence Ave, Kumasi, Ghana"
+            },
+            {
+              "name": "Yaw Appiah",
+              "address": "580 Airport Road, Kumasi, Ghana"
+            }
+          ],
+          "plot_id": "GHKU0008",
+          "size": 767.3,
+          "type": "Mixed Use",
+          "location": "Kumasi",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 6.696723380299245,
+                  "longitude": -1.6170257226849947
+                },
+                {
+                  "latitude": 6.698499135765625,
+                  "longitude": -1.6170257226849947
+                },
+                {
+                  "latitude": 6.698313796028508,
+                  "longitude": -1.6158581992141665
+                },
+                {
+                  "latitude": 6.696723380299245,
+                  "longitude": -1.6151974087958196
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 37.0
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 48.7
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 41.3
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 37.0
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 767.3,
+            "licensed_surveyor_number": "LS912535",
+            "date_of_letter": "2023-05-31",
+            "regional_number": "GR18056"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-02-24",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Akua Amoah",
+              "address": "123 High Street, Accra, Ghana"
+            }
+          ],
+          "plot_id": "GHAC0009",
+          "size": 904.0,
+          "type": "Mixed Use",
+          "location": "Accra",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.560058738803266,
+                  "longitude": -0.18906571820395524
+                },
+                {
+                  "latitude": 5.561298852117161,
+                  "longitude": -0.18906571820395524
+                },
+                {
+                  "latitude": 5.56196640870881,
+                  "longitude": -0.18788291163498955
+                },
+                {
+                  "latitude": 5.560058738803266,
+                  "longitude": -0.18773905389606613
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 43.8
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 43.1
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 48.2
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 44.2
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 904.0,
+            "licensed_surveyor_number": "LS108552",
+            "date_of_letter": "2023-01-25",
+            "regional_number": "GR66445"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-11-20",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kwame Addo",
+              "address": "775 High Street, Tema, Ghana"
+            }
+          ],
+          "plot_id": "GHTE0010",
+          "size": 716.1,
+          "type": "Commercial",
+          "location": "Tema",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.675600581579313,
+                  "longitude": -0.009041548360923255
+                },
+                {
+                  "latitude": 5.676706610623303,
+                  "longitude": -0.009041548360923255
+                },
+                {
+                  "latitude": 5.677013680050077,
+                  "longitude": -0.007511198140134646
+                },
+                {
+                  "latitude": 5.675600581579313,
+                  "longitude": -0.0074739604497394
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 41.7
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 36.6
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 35.7
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 41.5
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 716.1,
+            "licensed_surveyor_number": "LS728250",
+            "date_of_letter": "2023-10-07",
+            "regional_number": "GR75652"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-08-19",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kwame Addo",
+              "address": "297 Ring Road, Tamale, Ghana"
+            }
+          ],
+          "plot_id": "GHTA0011",
+          "size": 544.2,
+          "type": "Industrial",
+          "location": "Tamale",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 9.410081052022885,
+                  "longitude": -0.86282679458137
+                },
+                {
+                  "latitude": 9.411183719928268,
+                  "longitude": -0.86282679458137
+                },
+                {
+                  "latitude": 9.411933737033321,
+                  "longitude": -0.8611073088239962
+                },
+                {
+                  "latitude": 9.410081052022885,
+                  "longitude": -0.8608757116686764
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 42.7
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 35.8
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 48.1
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 49.2
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 544.2,
+            "licensed_surveyor_number": "LS624138",
+            "date_of_letter": "2023-05-22",
+            "regional_number": "GR19405"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-07-25",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Ama Wiredu",
+              "address": "866 Ring Road, Kumasi, Ghana"
+            }
+          ],
+          "plot_id": "GHKU0012",
+          "size": 829.3,
+          "type": "Agricultural",
+          "location": "Kumasi",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 6.694667424244591,
+                  "longitude": -1.6222163538882688
+                },
+                {
+                  "latitude": 6.696386140410837,
+                  "longitude": -1.6222163538882688
+                },
+                {
+                  "latitude": 6.696200146137585,
+                  "longitude": -1.6203984694269447
+                },
+                {
+                  "latitude": 6.694667424244591,
+                  "longitude": -1.620409231435971
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 41.4
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 49.5
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 36.1
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 38.2
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 829.3,
+            "licensed_surveyor_number": "LS709597",
+            "date_of_letter": "2023-05-06",
+            "regional_number": "GR43525"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-10-04",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kwesi Osei",
+              "address": "668 Beach Road, Accra, Ghana"
+            },
+            {
+              "name": "Kwesi Owusu",
+              "address": "75 Harbor Road, Accra, Ghana"
+            }
+          ],
+          "plot_id": "GHAC0013",
+          "size": 740.4,
+          "type": "Commercial",
+          "location": "Accra",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.556523783276758,
+                  "longitude": -0.19462950050120587
+                },
+                {
+                  "latitude": 5.558060618113508,
+                  "longitude": -0.19462950050120587
+                },
+                {
+                  "latitude": 5.557802562875205,
+                  "longitude": -0.19277113416736386
+                },
+                {
+                  "latitude": 5.556523783276758,
+                  "longitude": -0.19297088320967584
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 38.9
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 42.8
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 38.3
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 46.4
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 740.4,
+            "licensed_surveyor_number": "LS346094",
+            "date_of_letter": "2023-07-19",
+            "regional_number": "GR43867"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-12-14",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kofi Addo",
+              "address": "988 Airport Road, Cape Coast, Ghana"
+            },
+            {
+              "name": "Esi Addo",
+              "address": "879 Independence Ave, Cape Coast, Ghana"
+            }
+          ],
+          "plot_id": "GHCA0014",
+          "size": 839.9,
+          "type": "Mixed Use",
+          "location": "Cape Coast",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.139186438280826,
+                  "longitude": -1.2842723957379851
+                },
+                {
+                  "latitude": 5.140289251380884,
+                  "longitude": -1.2842723957379851
+                },
+                {
+                  "latitude": 5.140992789455378,
+                  "longitude": -1.2828911154148885
+                },
+                {
+                  "latitude": 5.139186438280826,
+                  "longitude": -1.28256940139226
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 45.7
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 38.0
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 37.3
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 45.9
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 839.9,
+            "licensed_surveyor_number": "LS346735",
+            "date_of_letter": "2023-10-11",
+            "regional_number": "GR97134"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-08-24",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kwesi Asante",
+              "address": "649 Ring Road, Tamale, Ghana"
+            },
+            {
+              "name": "Kwesi Boateng",
+              "address": "95 Market Road, Tamale, Ghana"
+            }
+          ],
+          "plot_id": "GHTA0015",
+          "size": 594.7,
+          "type": "Mixed Use",
+          "location": "Tamale",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 9.41633889700621,
+                  "longitude": -0.8474758860461513
+                },
+                {
+                  "latitude": 9.418272320710262,
+                  "longitude": -0.8474758860461513
+                },
+                {
+                  "latitude": 9.41787615173316,
+                  "longitude": -0.8463348001541015
+                },
+                {
+                  "latitude": 9.41633889700621,
+                  "longitude": -0.8459363867182171
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 46.2
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 38.6
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 44.4
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 35.1
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 594.7,
+            "licensed_surveyor_number": "LS818341",
+            "date_of_letter": "2023-07-05",
+            "regional_number": "GR44384"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-11-24",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kofi Sarpong",
+              "address": "566 Market Road, Tamale, Ghana"
+            }
+          ],
+          "plot_id": "GHTA0016",
+          "size": 760.8,
+          "type": "Residential",
+          "location": "Tamale",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 9.412492373208723,
+                  "longitude": -0.8577072369137712
+                },
+                {
+                  "latitude": 9.414160307785975,
+                  "longitude": -0.8577072369137712
+                },
+                {
+                  "latitude": 9.414150084656287,
+                  "longitude": -0.85662301416619
+                },
+                {
+                  "latitude": 9.412492373208723,
+                  "longitude": -0.8564996394792381
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 43.2
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 36.8
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 45.2
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 47.5
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 760.8,
+            "licensed_surveyor_number": "LS965522",
+            "date_of_letter": "2023-09-18",
+            "regional_number": "GR36044"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-08-10",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Esi Amoah",
+              "address": "528 Airport Road, Cape Coast, Ghana"
+            }
+          ],
+          "plot_id": "GHCA0017",
+          "size": 551.2,
+          "type": "Mixed Use",
+          "location": "Cape Coast",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.135726360900201,
+                  "longitude": -1.2793389874651149
+                },
+                {
+                  "latitude": 5.137520641707393,
+                  "longitude": -1.2793389874651149
+                },
+                {
+                  "latitude": 5.137453420194646,
+                  "longitude": -1.2782917632469148
+                },
+                {
+                  "latitude": 5.135726360900201,
+                  "longitude": -1.2781447501517578
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 44.4
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 39.9
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 45.8
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 37.8
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 551.2,
+            "licensed_surveyor_number": "LS693098",
+            "date_of_letter": "2023-06-17",
+            "regional_number": "GR22035"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-12-21",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kojo Asante",
+              "address": "305 Liberation Road, Accra, Ghana"
+            }
+          ],
+          "plot_id": "GHAC0018",
+          "size": 504.9,
+          "type": "Agricultural",
+          "location": "Accra",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.554127008466224,
+                  "longitude": -0.19715916615433637
+                },
+                {
+                  "latitude": 5.555886011714982,
+                  "longitude": -0.19715916615433637
+                },
+                {
+                  "latitude": 5.555717334680296,
+                  "longitude": -0.19552592163463448
+                },
+                {
+                  "latitude": 5.554127008466224,
+                  "longitude": -0.19593401466342808
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 49.9
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 42.6
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 41.6
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 45.8
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 504.9,
+            "licensed_surveyor_number": "LS779269",
+            "date_of_letter": "2023-10-20",
+            "regional_number": "GR19009"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-12-18",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kwesi Sarpong",
+              "address": "962 Liberation Road, Tema, Ghana"
+            },
+            {
+              "name": "Ama Amoah",
+              "address": "966 Liberation Road, Tema, Ghana"
+            }
+          ],
+          "plot_id": "GHTE0019",
+          "size": 880.5,
+          "type": "Industrial",
+          "location": "Tema",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.6682286586552655,
+                  "longitude": -0.010539048617942323
+                },
+                {
+                  "latitude": 5.670008517291221,
+                  "longitude": -0.010539048617942323
+                },
+                {
+                  "latitude": 5.669294194932408,
+                  "longitude": -0.008962636326660384
+                },
+                {
+                  "latitude": 5.6682286586552655,
+                  "longitude": -0.00855846376683423
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 39.7
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 38.3
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 40.6
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 44.4
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 880.5,
+            "licensed_surveyor_number": "LS289284",
+            "date_of_letter": "2023-09-22",
+            "regional_number": "GR19504"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-09-21",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Esi Asante",
+              "address": "157 Castle Road, Kumasi, Ghana"
+            }
+          ],
+          "plot_id": "GHKU0020",
+          "size": 615.1,
+          "type": "Residential",
+          "location": "Kumasi",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 6.680820513285778,
+                  "longitude": -1.6312649961724817
+                },
+                {
+                  "latitude": 6.682344768755756,
+                  "longitude": -1.6312649961724817
+                },
+                {
+                  "latitude": 6.682690621573722,
+                  "longitude": -1.6294203669916492
+                },
+                {
+                  "latitude": 6.680820513285778,
+                  "longitude": -1.629849355569128
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 41.1
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 45.9
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 40.0
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 43.5
+              }
+            ],
+            "plan_data": "Details of boundary and corner points",
+            "area_computation": 615.1,
+            "licensed_surveyor_number": "LS904760",
+            "date_of_letter": "2023-08-17",
+            "regional_number": "GR83082"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-03-15",
+          "title_of_document": "Indenture",
+          "owners": [
+            {
+              "name": "Kojo Mensah",
+              "address": "12 Independence Ave, Accra, Ghana"
+            }
+          ],
+          "plot_id": "GHAC0031",
+          "size": 800.5,
+          "type": "Commercial",
+          "location": "Accra",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 5.603717,
+                  "longitude": -0.186964
+                },
+                {
+                  "latitude": 5.604233,
+                  "longitude": -0.185214
+                },
+                {
+                  "latitude": 5.603717,
+                  "longitude": -0.183648
+                },
+                {
+                  "latitude": 5.602101,
+                  "longitude": -0.184919
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 50.2
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 42.1
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 49.3
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 47.5
+              }
+            ],
+            "plan_data": "Accra central commercial zone",
+            "area_computation": 800.5,
+            "licensed_surveyor_number": "LS701299",
+            "date_of_letter": "2023-02-10",
+            "regional_number": "GR32109"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-05-08",
+          "title_of_document": "Lease Agreement",
+          "owners": [
+            {
+              "name": "Ama Dede",
+              "address": "45 Cape Coast Road, Takoradi, Ghana"
+            }
+          ],
+          "plot_id": "GHTA0042",
+          "size": 450.0,
+          "type": "Residential",
+          "location": "Takoradi",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 4.899603,
+                  "longitude": -1.755367
+                },
+                {
+                  "latitude": 4.901238,
+                  "longitude": -1.755367
+                },
+                {
+                  "latitude": 4.901238,
+                  "longitude": -1.753832
+                },
+                {
+                  "latitude": 4.899603,
+                  "longitude": -1.753832
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 62.4
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 50.7
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 62.4
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 50.7
+              }
+            ],
+            "plan_data": "Residential development area",
+            "area_computation": 450.0,
+            "licensed_surveyor_number": "LS112508",
+            "date_of_letter": "2023-04-15",
+            "regional_number": "WR30205"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-11-01",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Yaw Obeng",
+              "address": "21 Eastern Road, Koforidua, Ghana"
+            }
+          ],
+          "plot_id": "GHKO0067",
+          "size": 1200.2,
+          "type": "Agricultural",
+          "location": "Koforidua",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 6.081889,
+                  "longitude": -0.266763
+                },
+                {
+                  "latitude": 6.083220,
+                  "longitude": -0.266763
+                },
+                {
+                  "latitude": 6.083220,
+                  "longitude": -0.264721
+                },
+                {
+                  "latitude": 6.081889,
+                  "longitude": -0.264721
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 90.1
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 66.8
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 90.1
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 66.8
+              }
+            ],
+            "plan_data": "Farming area, Koforidua",
+            "area_computation": 1200.2,
+            "licensed_surveyor_number": "LS305220",
+            "date_of_letter": "2023-10-20",
+            "regional_number": "ER40090"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-06-14",
+          "title_of_document": "Deed of Assignment",
+          "owners": [
+            {
+              "name": "Kweku Anane",
+              "address": "7 Main Street, Tamale, Ghana"
+            }
+          ],
+          "plot_id": "GHTA0061",
+          "size": 950.4,
+          "type": "Industrial",
+          "location": "Tamale",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 9.405395,
+                  "longitude": -0.841706
+                },
+                {
+                  "latitude": 9.406745,
+                  "longitude": -0.841706
+                },
+                {
+                  "latitude": 9.406745,
+                  "longitude": -0.839461
+                },
+                {
+                  "latitude": 9.405395,
+                  "longitude": -0.839461
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 84.3
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 74.5
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 84.3
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 74.5
+              }
+            ],
+            "plan_data": "Industrial zone, Tamale",
+            "area_computation": 950.4,
+            "licensed_surveyor_number": "LS207349",
+            "date_of_letter": "2023-05-10",
+            "regional_number": "NR50221"
+          }
+        }
+      },
+      {
+        "land_data": {
+          "date_of_instrument": "2023-02-20",
+          "title_of_document": "Land Title Certificate",
+          "owners": [
+            {
+              "name": "Kwame Appiah",
+              "address": "6 Volta Street, Ho, Ghana"
+            }
+          ],
+          "plot_id": "GHHO0089",
+          "size": 610.7,
+          "type": "Mixed Use",
+          "location": "Ho",
+          "site_plan": {
+            "gps_processed_data_summary": {
+              "point_list": [
+                {
+                  "latitude": 6.610536,
+                  "longitude": 0.472828
+                },
+                {
+                  "latitude": 6.611845,
+                  "longitude": 0.472828
+                },
+                {
+                  "latitude": 6.611845,
+                  "longitude": 0.474190
+                },
+                {
+                  "latitude": 6.610536,
+                  "longitude": 0.474190
+                }
+              ]
+            },
+            "bearing_distances": [
+              {
+                "start_point": 1,
+                "end_point": 2,
+                "distance": 55.2
+              },
+              {
+                "start_point": 2,
+                "end_point": 3,
+                "distance": 52.1
+              },
+              {
+                "start_point": 3,
+                "end_point": 4,
+                "distance": 55.2
+              },
+              {
+                "start_point": 4,
+                "end_point": 1,
+                "distance": 52.1
+              }
+            ],
+            "plan_data": "Mixed-use zone, Ho",
+            "area_computation": 610.7,
+            "licensed_surveyor_number": "LS405620",
+            "date_of_letter": "2023-01-15",
+            "regional_number": "VR90562"
+          }
+        }
+      }
+    ]
+  }

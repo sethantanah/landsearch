@@ -1,0 +1,216 @@
+2024-12-04 12:07:22,504 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:07:22,507 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:08:40,926 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpxb3jv7xq.tmp
+2024-12-04 12:08:40,989 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:08:40,989 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:08:40,990 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:08:40,990 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:08:40,991 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:11:30,252 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:11:30,271 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:11:35,932 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpbpyscmzt.tmp
+2024-12-04 12:11:35,958 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:11:35,958 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:11:35,960 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:11:35,960 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:11:35,961 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:12:07,618 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:12:07,623 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:12:08,627 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:12:08,632 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:12:15,109 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp2ghc00be.tmp
+2024-12-04 12:12:15,120 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:12:15,120 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:12:15,120 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:12:15,121 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:12:15,121 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:12:35,683 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:12:35,685 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:12:57,471 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:12:57,472 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:14:13,663 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpqytzd54_.tmp
+2024-12-04 12:14:13,720 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:14:13,720 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:14:13,720 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:14:13,721 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:14:13,721 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:15:44,395 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:15:44,427 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:15:47,968 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmppo6c2nym.tmp
+2024-12-04 12:15:47,984 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:15:47,985 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:15:47,986 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:15:47,987 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:15:48,010 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 12:15:48,011 - modules.document_processing - INFO - Document processed successfully
+2024-12-04 12:17:18,760 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:17:18,763 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:17:20,652 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpi45ip9gm.tmp
+2024-12-04 12:17:20,666 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:17:20,666 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:17:20,667 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:17:20,668 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:17:20,668 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:30:27,982 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:30:28,015 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:30:31,735 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmplalz7_hr.tmp
+2024-12-04 12:30:31,760 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:30:31,762 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:30:31,764 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:30:31,765 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:30:31,767 - modules.document_processing - DEBUG - Starting JSON extraction from text
+2024-12-04 12:30:31,768 - modules.document_processing - DEBUG - Input text length: 3032 characters
+2024-12-04 12:30:31,769 - modules.document_processing - DEBUG - Attempting Method 1: Markdown cleanup and direct parsing
+2024-12-04 12:30:31,770 - modules.document_processing - DEBUG - Cleaned text length: 3015 characters
+2024-12-04 12:30:31,771 - modules.document_processing - DEBUG - Method 1: Result is not a dictionary, attempting conversion
+2024-12-04 12:30:31,771 - modules.document_processing - DEBUG - JSON parsing failed in Method 1: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:30:31,773 - modules.document_processing - DEBUG - Attempting Method 2: Direct parsing of original text
+2024-12-04 12:30:31,773 - modules.document_processing - DEBUG - JSON parsing failed in Method 2: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:30:31,775 - modules.document_processing - DEBUG - Attempting Method 3: Regex extraction
+2024-12-04 12:30:31,776 - modules.document_processing - DEBUG - Found JSON match of length: 2709 characters
+2024-12-04 12:30:31,777 - modules.document_processing - DEBUG - Method 3: Result is not a dictionary, attempting conversion
+2024-12-04 12:30:31,778 - modules.document_processing - DEBUG - JSON parsing failed in Method 3: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:30:31,778 - modules.document_processing - ERROR - All JSON extraction methods failed
+2024-12-04 12:30:31,779 - modules.document_processing - ERROR - Failed to extract valid JSON from text of length 3032
+2024-12-04 12:30:31,780 - modules.document_processing - ERROR - JSON extraction error: 
+                JSON Extraction Error:
+                - Message: Failed to extract valid JSON from text of length 3032
+                - Error Type: Unknown
+                - Location: Unknown
+                - Original Error: None
+                - Input Data Preview: None
+                
+2024-12-04 12:30:31,781 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 12:30:31,782 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 12:32:57,542 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:32:57,544 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:33:00,188 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpqymsn00b.tmp
+2024-12-04 12:33:00,208 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:33:00,211 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:33:00,213 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:33:00,214 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:33:00,215 - modules.document_processing - DEBUG - Starting JSON extraction from text
+2024-12-04 12:33:00,222 - modules.document_processing - DEBUG - Input text length: 3032 characters
+2024-12-04 12:33:00,223 - modules.document_processing - DEBUG - Attempting Method 1: Markdown cleanup and direct parsing
+2024-12-04 12:33:00,224 - modules.document_processing - DEBUG - Cleaned text length: 3015 characters
+2024-12-04 12:33:00,225 - modules.document_processing - DEBUG - Method 1: Result is not a dictionary, attempting conversion
+2024-12-04 12:33:00,226 - modules.document_processing - DEBUG - JSON parsing failed in Method 1: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:33:00,228 - modules.document_processing - DEBUG - Attempting Method 2: Direct parsing of original text
+2024-12-04 12:33:00,229 - modules.document_processing - DEBUG - JSON parsing failed in Method 2: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:33:00,230 - modules.document_processing - DEBUG - Attempting Method 3: Regex extraction
+2024-12-04 12:33:00,231 - modules.document_processing - DEBUG - Found JSON match of length: 2709 characters
+2024-12-04 12:33:00,231 - modules.document_processing - DEBUG - Method 3: Result is not a dictionary, attempting conversion
+2024-12-04 12:33:00,232 - modules.document_processing - DEBUG - JSON parsing failed in Method 3: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:33:00,232 - modules.document_processing - ERROR - All JSON extraction methods failed
+2024-12-04 12:33:00,233 - modules.document_processing - ERROR - Failed to extract valid JSON from text of length 3032
+2024-12-04 12:33:00,234 - modules.document_processing - ERROR - JSON extraction error: 
+                JSON Extraction Error:
+                - Message: Failed to extract valid JSON from text of length 3032
+                - Error Type: Unknown
+                - Location: Unknown
+                - Original Error: None
+                - Input Data Preview: None
+                
+2024-12-04 12:33:00,236 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 12:33:00,237 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 12:33:59,582 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:33:59,583 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:34:11,522 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpqea79qht.tmp
+2024-12-04 12:34:11,585 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:34:11,586 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:34:11,588 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:34:11,589 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:34:11,590 - modules.document_processing - DEBUG - Starting JSON extraction from text
+2024-12-04 12:34:11,603 - modules.document_processing - DEBUG - Input text length: 3032 characters
+2024-12-04 12:34:11,604 - modules.document_processing - DEBUG - Attempting Method 1: Markdown cleanup and direct parsing
+2024-12-04 12:34:11,606 - modules.document_processing - DEBUG - Cleaned text length: 3015 characters
+2024-12-04 12:34:11,607 - modules.document_processing - DEBUG - Method 1: Result is not a dictionary, attempting conversion
+2024-12-04 12:34:11,609 - modules.document_processing - DEBUG - JSON parsing failed in Method 1: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:34:11,612 - modules.document_processing - DEBUG - Attempting Method 2: Direct parsing of original text
+2024-12-04 12:34:11,614 - modules.document_processing - DEBUG - JSON parsing failed in Method 2: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:34:11,615 - modules.document_processing - DEBUG - Attempting Method 3: Regex extraction
+2024-12-04 12:34:11,617 - modules.document_processing - DEBUG - Found JSON match of length: 2709 characters
+2024-12-04 12:34:11,619 - modules.document_processing - DEBUG - Method 3: Result is not a dictionary, attempting conversion
+2024-12-04 12:34:11,621 - modules.document_processing - DEBUG - JSON parsing failed in Method 3: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:34:11,623 - modules.document_processing - ERROR - All JSON extraction methods failed
+2024-12-04 12:34:11,624 - modules.document_processing - ERROR - Failed to extract valid JSON from text of length 3032
+2024-12-04 12:34:11,625 - modules.document_processing - ERROR - JSON extraction error: 
+                JSON Extraction Error:
+                - Message: Failed to extract valid JSON from text of length 3032
+                - Error Type: Unknown
+                - Location: Unknown
+                - Original Error: None
+                - Input Data Preview: None
+                
+2024-12-04 12:34:11,629 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 12:34:11,630 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 12:38:44,319 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:38:44,353 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:43:24,501 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:43:24,524 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:43:30,926 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp1vdvmfgy.tmp
+2024-12-04 12:43:30,984 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:43:30,985 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:43:30,987 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:43:30,988 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:43:30,989 - modules.document_processing - DEBUG - Starting JSON extraction from text
+2024-12-04 12:43:30,991 - modules.document_processing - DEBUG - Input text length: 3032 characters
+2024-12-04 12:43:30,992 - modules.document_processing - DEBUG - Attempting Method 1: Markdown cleanup and direct parsing
+2024-12-04 12:43:30,993 - modules.document_processing - DEBUG - Cleaned text length: 3015 characters
+2024-12-04 12:43:31,001 - modules.document_processing - DEBUG - Method 1: Result is not a dictionary, attempting conversion
+2024-12-04 12:43:31,003 - modules.document_processing - DEBUG - JSON parsing failed in Method 1: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:43:31,004 - modules.document_processing - DEBUG - Attempting Method 2: Direct parsing of original text
+2024-12-04 12:43:31,006 - modules.document_processing - DEBUG - JSON parsing failed in Method 2: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:43:31,007 - modules.document_processing - DEBUG - Attempting Method 3: Regex extraction
+2024-12-04 12:43:31,009 - modules.document_processing - DEBUG - Found JSON match of length: 2709 characters
+2024-12-04 12:43:31,009 - modules.document_processing - DEBUG - Method 3: Result is not a dictionary, attempting conversion
+2024-12-04 12:43:31,011 - modules.document_processing - DEBUG - JSON parsing failed in Method 3: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:43:31,013 - modules.document_processing - ERROR - All JSON extraction methods failed
+2024-12-04 12:43:31,014 - modules.document_processing - ERROR - Failed to extract valid JSON from text of length 3032
+2024-12-04 12:43:31,015 - modules.document_processing - ERROR - JSON extraction error: 
+                JSON Extraction Error:
+                - Message: Failed to extract valid JSON from text of length 3032
+                - Error Type: Unknown
+                - Location: Unknown
+                - Original Error: None
+                - Input Data Preview: None
+                
+2024-12-04 12:43:31,023 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 12:43:31,026 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 12:44:16,082 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:44:16,085 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:44:31,815 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpcuzy90pf.tmp
+2024-12-04 12:44:31,871 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:44:31,872 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:44:31,872 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:44:31,873 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:44:31,873 - modules.document_processing - DEBUG - Starting JSON extraction from text
+2024-12-04 12:44:31,873 - modules.document_processing - DEBUG - Input text length: 3032 characters
+2024-12-04 12:44:31,874 - modules.document_processing - DEBUG - Attempting Method 1: Markdown cleanup and direct parsing
+2024-12-04 12:44:31,875 - modules.document_processing - DEBUG - Cleaned text length: 3015 characters
+2024-12-04 12:44:31,880 - modules.document_processing - DEBUG - Method 1: Result is not a dictionary, attempting conversion
+2024-12-04 12:44:31,881 - modules.document_processing - DEBUG - JSON parsing failed in Method 1: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:44:31,882 - modules.document_processing - DEBUG - Attempting Method 2: Direct parsing of original text
+2024-12-04 12:44:31,883 - modules.document_processing - DEBUG - JSON parsing failed in Method 2: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:44:31,883 - modules.document_processing - DEBUG - Attempting Method 3: Regex extraction
+2024-12-04 12:44:31,884 - modules.document_processing - DEBUG - Found JSON match of length: 2709 characters
+2024-12-04 12:44:31,884 - modules.document_processing - DEBUG - Method 3: Result is not a dictionary, attempting conversion
+2024-12-04 12:44:31,885 - modules.document_processing - DEBUG - JSON parsing failed in Method 3: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:44:31,886 - modules.document_processing - ERROR - All JSON extraction methods failed
+2024-12-04 12:44:31,886 - modules.document_processing - ERROR - Failed to extract valid JSON from text of length 3032
+2024-12-04 12:44:31,887 - modules.document_processing - ERROR - JSON extraction error: 
+                JSON Extraction Error:
+                - Message: Failed to extract valid JSON from text of length 3032
+                - Error Type: Unknown
+                - Location: Unknown
+                - Original Error: None
+                - Input Data Preview: None
+                
+2024-12-04 12:44:31,888 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 12:44:31,889 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 12:56:17,141 - httpx - DEBUG - load_ssl_context verify=True cert=None trust_env=True http2=False
+2024-12-04 12:56:17,146 - httpx - DEBUG - load_verify_locations cafile='C:\\Users\\SethAntanah\\Desktop\\Projects\\Other Projects\\Streamlit Projects\\landsearch\\.venv\\Lib\\site-packages\\certifi\\cacert.pem'
+2024-12-04 12:58:49,151 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpao6gbpc1.tmp
+2024-12-04 12:58:49,259 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:58:49,261 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:58:49,263 - modules.document_processing - INFO - GEMINI CALL!

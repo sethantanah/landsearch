@@ -1,0 +1,1032 @@
+2024-11-21 09:57:13,764 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp0l3932c5.tmp
+2024-11-21 09:57:17,098 - modules.document_processing - ERROR - Processing attempt 1 failed: Object of type bytes is not JSON serializable
+2024-11-21 09:57:19,388 - modules.document_processing - ERROR - Processing attempt 2 failed: Object of type bytes is not JSON serializable
+2024-11-21 09:57:23,463 - modules.document_processing - ERROR - Processing attempt 3 failed: Object of type bytes is not JSON serializable
+2024-11-21 10:01:50,743 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmph7pbiphq.tmp
+2024-11-21 10:01:51,186 - modules.document_processing - ERROR - Processing attempt 1 failed: Object of type bytes is not JSON serializable
+2024-11-21 10:01:53,314 - modules.document_processing - ERROR - Processing attempt 2 failed: Object of type bytes is not JSON serializable
+2024-11-21 10:01:57,443 - modules.document_processing - ERROR - Processing attempt 3 failed: Object of type bytes is not JSON serializable
+2024-11-21 10:05:22,478 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmphmcit4vx.tmp
+2024-11-21 10:05:22,506 - modules.document_processing - INFO - Image processing complete
+2024-11-21 10:13:07,458 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpe3twwl6p.tmp
+2024-11-21 10:13:07,496 - modules.document_processing - INFO - Image processing complete
+2024-11-21 10:14:05,691 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmprrekri27.tmp
+2024-11-21 10:14:05,711 - modules.document_processing - INFO - Image processing complete
+2024-11-21 10:14:39,535 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpy58ahunw.tmp
+2024-11-21 10:14:39,546 - modules.document_processing - INFO - Image processing complete
+2024-11-21 10:14:54,246 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp0w7nyff7.tmp
+2024-11-21 10:14:54,323 - modules.document_processing - ERROR - Image loading failed: cannot identify image file 'C:\\Users\\SethAntanah\\AppData\\Local\\Temp\\tmp0w7nyff7.tmp'
+2024-11-21 10:14:54,324 - modules.document_processing - ERROR - Error processing document C:\Users\SETHAN~1\AppData\Local\Temp\tmp0w7nyff7.tmp: cannot identify image file 'C:\\Users\\SethAntanah\\AppData\\Local\\Temp\\tmp0w7nyff7.tmp'
+2024-11-21 10:29:06,421 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp5q78yoh3.tmp
+2024-11-21 10:29:06,438 - modules.document_processing - ERROR - Error processing document C:\Users\SETHAN~1\AppData\Local\Temp\tmp5q78yoh3.tmp: 'str' object has no attribute 'suffix'
+2024-11-21 10:30:26,061 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp1antgcc2.tmp
+2024-11-21 10:30:26,065 - modules.document_processing - ERROR - Error processing document C:\Users\SETHAN~1\AppData\Local\Temp\tmp1antgcc2.tmp: name 'original_file_path' is not defined
+2024-11-21 10:31:01,049 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpu86yvi8k.tmp
+2024-11-21 10:31:01,172 - modules.document_processing - ERROR - Image loading failed: cannot identify image file 'C:\\Users\\SethAntanah\\AppData\\Local\\Temp\\tmpu86yvi8k.tmp'
+2024-11-21 10:31:01,172 - modules.document_processing - ERROR - Error processing document C:\Users\SETHAN~1\AppData\Local\Temp\tmpu86yvi8k.tmp: cannot identify image file 'C:\\Users\\SethAntanah\\AppData\\Local\\Temp\\tmpu86yvi8k.tmp'
+2024-11-21 10:32:26,955 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp224stsz2.tmp
+2024-11-21 10:32:26,956 - modules.document_processing - INFO - DocumentType.IMAGE
+2024-11-21 10:32:26,996 - modules.document_processing - ERROR - Image loading failed: cannot identify image file 'C:\\Users\\SethAntanah\\AppData\\Local\\Temp\\tmp224stsz2.tmp'
+2024-11-21 10:32:26,997 - modules.document_processing - ERROR - Error processing document C:\Users\SETHAN~1\AppData\Local\Temp\tmp224stsz2.tmp: cannot identify image file 'C:\\Users\\SethAntanah\\AppData\\Local\\Temp\\tmp224stsz2.tmp'
+2024-11-21 10:34:18,231 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpx9myvero.tmp
+2024-11-21 10:34:18,233 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpx9myvero.tmp
+2024-11-21 10:34:21,193 - modules.document_processing - INFO - Image processing complete
+2024-11-21 11:18:12,405 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp0pdaw5i9.tmp
+2024-11-21 11:18:12,406 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp0pdaw5i9.tmp
+2024-11-21 11:18:15,743 - modules.document_processing - INFO - Image processing complete
+2024-11-21 11:19:40,873 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-11-21 11:19:41,040 - openai._base_client - INFO - Retrying request to /chat/completions in 0.401020 seconds
+2024-11-21 11:20:17,140 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2024-11-21 11:20:17,161 - openai._base_client - INFO - Retrying request to /chat/completions in 0.756913 seconds
+2024-11-21 11:20:37,443 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-11-21 11:20:37,516 - modules.document_processing - ERROR - Processing attempt 1 failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-11-21 11:20:39,534 - modules.document_processing - INFO - Image processing complete
+2024-11-21 11:21:02,821 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-11-21 11:21:02,824 - openai._base_client - INFO - Retrying request to /chat/completions in 0.386505 seconds
+2024-11-21 11:36:13,783 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpny1wvq5p.tmp
+2024-11-21 11:36:13,784 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpny1wvq5p.tmp
+2024-11-21 11:36:16,140 - modules.document_processing - INFO - Image processing complete
+2024-11-21 11:46:18,493 - modules.document_processing - ERROR - Processing attempt 1 failed: Timeout of 600.0s exceeded, last exception: 503 failed to connect to all addresses; last error: UNKNOWN: ipv4:142.250.200.106:443: tcp handshaker shutdown
+2024-11-21 11:46:20,497 - modules.document_processing - INFO - Image processing complete
+2024-11-21 11:46:43,315 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpo7nc2lvc.tmp
+2024-11-21 11:46:43,318 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpo7nc2lvc.tmp
+2024-11-21 11:46:47,046 - modules.document_processing - INFO - Image processing complete
+2024-11-21 11:56:24,490 - modules.document_processing - ERROR - Processing attempt 2 failed: 504 Deadline Exceeded
+2024-11-21 11:56:28,532 - modules.document_processing - INFO - Image processing complete
+2024-11-21 11:56:51,252 - modules.document_processing - ERROR - Processing attempt 1 failed: 504 Deadline Exceeded
+2024-11-21 11:56:53,256 - modules.document_processing - INFO - Image processing complete
+2024-11-21 12:06:31,872 - modules.document_processing - ERROR - Processing attempt 3 failed: 504 Deadline Exceeded
+2024-11-21 12:06:56,389 - modules.document_processing - ERROR - Processing attempt 2 failed: 504 Deadline Exceeded
+2024-11-21 12:07:00,391 - modules.document_processing - INFO - Image processing complete
+2024-11-21 13:03:16,151 - modules.document_processing - ERROR - Processing attempt 3 failed: 504 Deadline Exceeded
+2024-11-21 13:08:40,522 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp2onlsr0l.tmp
+2024-11-21 13:08:40,544 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp2onlsr0l.tmp
+2024-11-21 13:08:42,738 - modules.document_processing - INFO - Image processing complete
+2024-11-21 13:09:17,091 - modules.document_processing - INFO - Document processed successfully
+2024-11-21 14:19:45,826 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpa5wh3brc.tmp
+2024-11-21 14:19:45,828 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpa5wh3brc.tmp
+2024-11-21 14:19:48,455 - modules.document_processing - INFO - Image processing complete
+2024-11-21 14:20:10,854 - modules.document_processing - ERROR - Processing attempt 1 failed: string indices must be integers, not 'str'
+2024-11-21 14:20:12,856 - modules.document_processing - INFO - Image processing complete
+2024-11-21 14:20:41,782 - modules.document_processing - ERROR - Processing attempt 2 failed: string indices must be integers, not 'str'
+2024-11-21 14:20:45,783 - modules.document_processing - INFO - Image processing complete
+2024-11-21 14:23:14,489 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpptfnmvb4.tmp
+2024-11-21 14:23:14,491 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpptfnmvb4.tmp
+2024-11-21 14:23:16,529 - modules.document_processing - INFO - Image processing complete
+2024-11-21 14:23:39,294 - modules.document_processing - INFO - Document processed successfully
+2024-11-21 14:25:10,992 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpjh2x0zfs.tmp
+2024-11-21 14:25:10,999 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpjh2x0zfs.tmp
+2024-11-21 14:25:13,103 - modules.document_processing - INFO - Image processing complete
+2024-11-21 14:25:36,894 - modules.document_processing - INFO - Document processed successfully
+2024-11-21 14:26:43,642 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp0nkh3b55.tmp
+2024-11-21 14:26:43,644 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp0nkh3b55.tmp
+2024-11-21 14:26:45,652 - modules.document_processing - INFO - Image processing complete
+2024-11-21 14:27:09,573 - modules.document_processing - INFO - Document processed successfully
+2024-11-21 14:29:40,805 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpgyv6lbv1.tmp
+2024-11-21 14:29:40,809 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpgyv6lbv1.tmp
+2024-11-21 14:29:42,947 - modules.document_processing - INFO - Image processing complete
+2024-11-21 14:30:07,248 - modules.document_processing - ERROR - Failed to Process Site Data string indices must be integers, not 'str'
+2024-11-21 14:30:07,249 - modules.document_processing - INFO - Document processed successfully
+2024-11-21 14:30:46,994 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data 504 Deadline Exceeded
+2024-11-21 14:30:46,995 - modules.document_processing - ERROR - Processing attempt 3 failed: 504 Deadline Exceeded
+2024-11-21 15:57:28,445 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmppzenf4bi.tmp
+2024-11-21 15:57:28,447 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmppzenf4bi.tmp
+2024-11-21 15:57:30,820 - modules.document_processing - INFO - Image processing complete
+2024-11-21 15:57:52,702 - modules.document_processing - INFO - Document processed successfully
+2024-11-21 16:14:53,968 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpal235bwf.tmp
+2024-11-21 16:14:53,969 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpal235bwf.tmp
+2024-11-21 16:14:56,097 - modules.document_processing - INFO - Image processing complete
+2024-11-21 16:15:18,857 - modules.document_processing - INFO - Document processed successfully
+2024-11-21 16:22:57,719 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp7rmee7ul.tmp
+2024-11-21 16:22:57,729 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp7rmee7ul.tmp
+2024-11-21 16:22:59,713 - modules.document_processing - INFO - Image processing complete
+2024-11-21 16:23:25,039 - modules.document_processing - INFO - Document processed successfully
+2024-11-21 16:34:40,343 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp9zi664ne.tmp
+2024-11-21 16:34:40,358 - modules.document_processing - INFO - Image processing complete
+2024-11-21 16:34:59,488 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 09:54:45,807 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 10:02:07,193 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp6krcntw8.tmp
+2024-11-22 10:02:07,207 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp6krcntw8.tmp
+2024-11-22 10:02:10,178 - modules.document_processing - INFO - Image processing complete
+2024-11-22 10:02:31,782 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 10:03:43,342 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmph968ya6h.tmp
+2024-11-22 10:03:43,344 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmph968ya6h.tmp
+2024-11-22 10:03:45,394 - modules.document_processing - INFO - Image processing complete
+2024-11-22 10:04:06,459 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 10:04:44,013 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 10:17:00,248 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 400 Bad Request"
+2024-11-22 10:22:24,879 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-22 10:24:41,025 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:18:26,124 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:20:18,676 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:21:37,951 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:22:47,084 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:24:39,678 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:25:25,299 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:26:15,973 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:27:41,856 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:28:30,317 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:28:47,598 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:29:54,150 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 11:52:22,600 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpizbqxkha.tmp
+2024-11-22 11:52:22,619 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpizbqxkha.tmp
+2024-11-22 11:52:25,542 - modules.document_processing - INFO - Image processing complete
+2024-11-22 11:52:47,099 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 11:52:47,178 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpqnno7j_v.tmp
+2024-11-22 11:52:47,191 - modules.document_processing - INFO - Image processing complete
+2024-11-22 11:52:55,578 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 11:52:55,600 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpzqs72_gw.tmp
+2024-11-22 11:52:55,613 - modules.document_processing - INFO - Image processing complete
+2024-11-22 11:53:14,461 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: '1.55 ACRE OR 0.63 HECTARE'
+2024-11-22 11:53:14,463 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 11:53:36,880 - modules.document_processing - WARNING - Could not save site data Object of type ProcessingResult is not JSON serializable
+2024-11-22 11:53:36,883 - modules.document_processing - WARNING - Could not save site data Object of type ProcessingResult is not JSON serializable
+2024-11-22 11:53:36,884 - modules.document_processing - WARNING - Could not save site data Object of type ProcessingResult is not JSON serializable
+2024-11-22 11:58:31,725 - modules.document_processing - WARNING - Could not save site data Object of type ProcessingResult is not JSON serializable
+2024-11-22 11:58:31,736 - modules.document_processing - WARNING - Could not save site data Object of type ProcessingResult is not JSON serializable
+2024-11-22 11:58:31,738 - modules.document_processing - WARNING - Could not save site data Object of type ProcessingResult is not JSON serializable
+2024-11-22 12:05:41,114 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpovkok6ol.tmp
+2024-11-22 12:05:41,127 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpovkok6ol.tmp
+2024-11-22 12:05:43,314 - modules.document_processing - INFO - Image processing complete
+2024-11-22 12:06:04,728 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 12:06:04,732 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpxeyt8x3m.tmp
+2024-11-22 12:06:04,746 - modules.document_processing - INFO - Image processing complete
+2024-11-22 12:06:13,488 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 12:06:13,493 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpu6x6_d6f.tmp
+2024-11-22 12:06:13,509 - modules.document_processing - INFO - Image processing complete
+2024-11-22 12:06:32,026 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 12:06:36,532 - modules.document_processing - WARNING - Could not save site data Object of type PpmImageFile is not JSON serializable
+2024-11-22 12:06:36,534 - modules.document_processing - WARNING - Could not save site data Object of type JpegImageFile is not JSON serializable
+2024-11-22 12:06:36,536 - modules.document_processing - WARNING - Could not save site data Object of type WebPImageFile is not JSON serializable
+2024-11-22 12:08:19,272 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-22 12:08:19,503 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-22 12:08:19,711 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-22 12:09:08,941 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:11:02,908 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:18:15,073 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:18:37,246 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:18:55,077 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:29:46,759 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:31:43,604 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:32:20,883 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:32:36,615 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:39:55,243 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:44:36,873 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:51:52,221 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:56:41,683 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 12:58:21,088 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp1mr4p9gw.tmp
+2024-11-22 12:58:21,089 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp1mr4p9gw.tmp
+2024-11-22 12:58:23,217 - modules.document_processing - INFO - Image processing complete
+2024-11-22 12:58:44,435 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 12:58:44,440 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpx_468uu_.tmp
+2024-11-22 12:58:44,483 - modules.document_processing - INFO - Image processing complete
+2024-11-22 12:58:53,204 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 12:58:53,210 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpkfqzfylp.tmp
+2024-11-22 12:58:53,227 - modules.document_processing - INFO - Image processing complete
+2024-11-22 12:59:11,549 - modules.document_processing - INFO - Document processed successfully
+2024-11-22 12:59:18,272 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-22 12:59:18,507 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-22 13:03:37,406 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 13:03:54,930 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 13:04:06,744 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-22 13:04:22,904 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-25 11:47:18,390 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-25 13:01:48,101 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-25 13:35:06,993 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-25 13:40:36,344 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-25 13:45:46,014 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-25 13:53:26,737 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-25 13:58:40,845 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-25 15:46:39,815 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpzodwvgyz.tmp
+2024-11-25 15:46:39,842 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpzodwvgyz.tmp
+2024-11-25 15:46:43,730 - modules.document_processing - INFO - Image processing complete
+2024-11-25 15:56:46,536 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 504 Deadline Exceeded
+2024-11-25 15:56:46,553 - modules.document_processing - ERROR - Processing attempt 1 failed: 504 Deadline Exceeded
+2024-11-25 15:56:48,559 - modules.document_processing - INFO - Image processing complete
+2024-11-25 15:57:09,743 - modules.document_processing - INFO - Document processed successfully
+2024-11-28 15:42:32,900 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpfsrxw489.tmp
+2024-11-28 15:42:32,903 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpfsrxw489.tmp
+2024-11-28 15:42:35,894 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:42:44,524 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:42:44,525 - modules.document_processing - ERROR - Processing attempt 1 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:42:46,526 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:42:54,532 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:42:54,533 - modules.document_processing - ERROR - Processing attempt 2 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:42:58,535 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:43:07,263 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:43:07,264 - modules.document_processing - ERROR - Processing attempt 3 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:45:54,589 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpf9xemkol.tmp
+2024-11-28 15:45:54,591 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpf9xemkol.tmp
+2024-11-28 15:45:57,552 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:46:12,035 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:46:12,036 - modules.document_processing - ERROR - Processing attempt 1 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:46:14,040 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:46:25,465 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:46:25,468 - modules.document_processing - ERROR - Processing attempt 2 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:46:29,469 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:46:39,255 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:46:39,256 - modules.document_processing - ERROR - Processing attempt 3 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:48:45,459 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpanixkgdo.tmp
+2024-11-28 15:48:45,465 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpanixkgdo.tmp
+2024-11-28 15:48:48,700 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:48:58,012 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:48:58,013 - modules.document_processing - ERROR - Processing attempt 1 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:49:00,015 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:49:09,474 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:49:09,475 - modules.document_processing - ERROR - Processing attempt 2 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:49:13,475 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:49:22,192 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:49:22,193 - modules.document_processing - ERROR - Processing attempt 3 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 15:50:29,764 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp82vkrz1n.tmp
+2024-11-28 15:50:29,769 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp82vkrz1n.tmp
+2024-11-28 15:50:32,684 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:50:41,379 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 15:50:41,399 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 15:50:41,400 - modules.document_processing - ERROR - Processing attempt 1 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 15:50:43,403 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:50:51,115 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 15:50:51,116 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 15:50:51,116 - modules.document_processing - ERROR - Processing attempt 2 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 15:50:55,117 - modules.document_processing - INFO - Image processing complete
+2024-11-28 15:51:01,413 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 15:51:01,414 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 15:51:01,415 - modules.document_processing - ERROR - Processing attempt 3 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:05:50,887 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpny68__4h.tmp
+2024-11-28 16:05:50,919 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpny68__4h.tmp
+2024-11-28 16:05:56,909 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:05:58,524 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 16:05:58,557 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:05:58,572 - modules.document_processing - ERROR - Processing attempt 1 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:06:00,579 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:06:03,176 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 16:06:03,178 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:06:03,179 - modules.document_processing - ERROR - Processing attempt 2 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:06:07,180 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:06:10,776 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 16:06:10,777 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:06:10,778 - modules.document_processing - ERROR - Processing attempt 3 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:06:49,709 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpczehgdrs.tmp
+2024-11-28 16:06:49,710 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpczehgdrs.tmp
+2024-11-28 16:06:52,627 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:06:54,061 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 16:06:54,068 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:06:54,070 - modules.document_processing - ERROR - Processing attempt 1 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:06:56,072 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:06:56,773 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 16:06:56,774 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:06:56,775 - modules.document_processing - ERROR - Processing attempt 2 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:07:00,777 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:07:01,443 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 16:07:01,444 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:07:01,445 - modules.document_processing - ERROR - Processing attempt 3 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 16:14:50,078 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpjgxnoqbj.tmp
+2024-11-28 16:14:50,093 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpjgxnoqbj.tmp
+2024-11-28 16:14:52,821 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:15:01,322 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 16:15:01,323 - modules.document_processing - ERROR - Processing attempt 1 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 16:15:03,326 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:15:11,300 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 16:15:11,301 - modules.document_processing - ERROR - Processing attempt 2 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 16:15:15,302 - modules.document_processing - INFO - Image processing complete
+2024-11-28 16:15:25,523 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 16:15:25,524 - modules.document_processing - ERROR - Processing attempt 3 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 18:17:08,077 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpx8xlh2hl.tmp
+2024-11-28 18:17:08,086 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpx8xlh2hl.tmp
+2024-11-28 18:17:10,266 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:23:28,441 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpkc2mmhep.tmp
+2024-11-28 18:23:28,442 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpkc2mmhep.tmp
+2024-11-28 18:23:31,343 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:23:46,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 18:23:46,318 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:23:46,319 - modules.document_processing - ERROR - Processing attempt 1 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:23:48,320 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:24:02,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 18:24:02,325 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:24:02,326 - modules.document_processing - ERROR - Processing attempt 2 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:24:06,328 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:24:20,103 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 18:24:20,104 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:24:20,105 - modules.document_processing - ERROR - Processing attempt 3 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:28:02,585 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp6154q_x5.tmp
+2024-11-28 18:28:02,590 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp6154q_x5.tmp
+2024-11-28 18:28:04,848 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:28:11,587 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 18:28:11,595 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:28:11,596 - modules.document_processing - ERROR - Processing attempt 1 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:44:37,051 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp5mhhc2am.tmp
+2024-11-28 18:44:37,068 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp5mhhc2am.tmp
+2024-11-28 18:44:39,200 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:44:41,224 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 18:44:41,234 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:44:41,235 - modules.document_processing - ERROR - Processing attempt 1 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:45:16,417 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpnqqe953f.tmp
+2024-11-28 18:45:16,418 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpnqqe953f.tmp
+2024-11-28 18:45:18,338 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:45:20,813 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2024-11-28 18:45:20,816 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:45:20,818 - modules.document_processing - ERROR - Processing attempt 1 failed: Error code: 400 - {'error': {'message': "You uploaded an unsupported image. Please make sure your image has of one the following formats: ['png', 'jpeg', 'gif', 'webp'].", 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_image_format'}}
+2024-11-28 18:48:10,266 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpxr19ceby.tmp
+2024-11-28 18:48:10,278 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpxr19ceby.tmp
+2024-11-28 18:48:12,646 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:48:30,957 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-28 18:48:31,131 - modules.document_processing - ERROR - Failed to Process Site Data: 'NoneType' object is not subscriptable
+2024-11-28 18:48:31,132 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-11-28 18:49:40,958 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpxcjg_0oi.tmp
+2024-11-28 18:49:40,965 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpxcjg_0oi.tmp
+2024-11-28 18:49:43,449 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:49:51,851 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 18:49:51,852 - modules.document_processing - ERROR - Processing attempt 1 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 18:50:06,382 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpnhsfx23g.tmp
+2024-11-28 18:50:06,382 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpnhsfx23g.tmp
+2024-11-28 18:50:08,200 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:50:14,080 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 18:50:14,081 - modules.document_processing - ERROR - Processing attempt 1 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 18:50:16,652 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpckxb05q1.tmp
+2024-11-28 18:50:16,652 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpckxb05q1.tmp
+2024-11-28 18:50:18,385 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:50:35,322 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-28 18:50:35,401 - modules.document_processing - ERROR - Failed to Process Site Data: 'NoneType' object is not subscriptable
+2024-11-28 18:50:35,402 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-11-28 18:52:29,759 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpnyfet047.tmp
+2024-11-28 18:52:29,760 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpnyfet047.tmp
+2024-11-28 18:52:31,700 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:52:51,586 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-28 18:52:51,590 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: 'ChatCompletion' object has no attribute 'message'
+2024-11-28 18:52:51,591 - modules.document_processing - ERROR - Processing attempt 1 failed: 'ChatCompletion' object has no attribute 'message'
+2024-11-28 18:54:35,689 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp681s3nf_.tmp
+2024-11-28 18:54:35,693 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp681s3nf_.tmp
+2024-11-28 18:54:37,968 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:55:00,378 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-28 18:55:00,443 - modules.document_processing - ERROR - Failed to Process Site Data: 'NoneType' object is not subscriptable
+2024-11-28 18:55:00,444 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-11-28 18:57:34,657 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpm4so37ax.tmp
+2024-11-28 18:57:34,662 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpm4so37ax.tmp
+2024-11-28 18:57:37,286 - modules.document_processing - INFO - Image processing complete
+2024-11-28 18:57:56,000 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-28 18:57:56,105 - modules.document_processing - INFO - Document processed successfully
+2024-11-28 18:58:07,783 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-28 18:58:15,117 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-28 19:04:25,883 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmprb9rfuwe.tmp
+2024-11-28 19:04:25,896 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmprb9rfuwe.tmp
+2024-11-28 19:04:28,109 - modules.document_processing - INFO - Image processing complete
+2024-11-28 19:04:45,798 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-28 19:04:46,892 - modules.document_processing - INFO - Document processed successfully
+2024-11-28 19:04:52,127 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-28 19:07:44,149 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-28 19:11:06,669 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-28 19:13:09,798 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmps8xeocfp.tmp
+2024-11-28 19:13:09,839 - modules.document_processing - INFO - Image processing complete
+2024-11-28 19:13:29,597 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: '1.55 ACRE OR 0.63 HECTARE'
+2024-11-28 19:13:29,598 - modules.document_processing - INFO - Document processed successfully
+2024-11-28 19:18:20,065 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpp601xdnr.tmp
+2024-11-28 19:18:20,094 - modules.document_processing - INFO - Image processing complete
+2024-11-28 19:22:07,248 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpwh_b084_.tmp
+2024-11-28 19:22:07,257 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpwh_b084_.tmp
+2024-11-28 19:22:09,800 - modules.document_processing - INFO - Image processing complete
+2024-11-28 19:22:17,561 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 19:22:17,564 - modules.document_processing - ERROR - Processing attempt 1 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 19:24:29,730 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 19:24:29,731 - modules.document_processing - ERROR - Processing attempt 1 failed: 500 Unable to submit request because the service is temporarily unavailable.
+2024-11-28 19:24:50,542 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpf5oifctu.tmp
+2024-11-28 19:24:50,542 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpf5oifctu.tmp
+2024-11-28 19:24:52,633 - modules.document_processing - INFO - Image processing complete
+2024-11-28 19:25:24,969 - modules.document_processing - INFO - Document processed successfully
+2024-11-28 19:25:41,859 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-28 19:25:48,124 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-28 19:27:54,591 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp_utfmbfd.tmp
+2024-11-28 19:27:54,592 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp_utfmbfd.tmp
+2024-11-28 19:27:56,815 - modules.document_processing - INFO - Image processing complete
+2024-11-28 19:29:10,993 - modules.document_processing - INFO - Document processed successfully
+2024-11-28 19:29:38,938 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-28 19:29:45,675 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-28 19:35:08,541 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-28 19:35:23,844 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpu0eo1rvr.tmp
+2024-11-28 19:35:23,845 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpu0eo1rvr.tmp
+2024-11-28 19:35:26,011 - modules.document_processing - INFO - Image processing complete
+2024-11-28 19:35:28,341 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpfatz37zj.tmp
+2024-11-28 19:35:28,342 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpfatz37zj.tmp
+2024-11-28 19:35:30,299 - modules.document_processing - INFO - Image processing complete
+2024-11-28 19:35:46,452 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-28 19:35:47,193 - modules.document_processing - INFO - Document processed successfully
+2024-11-28 19:35:49,531 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-28 19:35:49,567 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: "3195.2'"
+2024-11-28 19:35:49,568 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 08:53:46,624 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 08:54:26,374 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpxb2i7tbe.tmp
+2024-11-29 08:54:26,375 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpxb2i7tbe.tmp
+2024-11-29 08:54:29,250 - modules.document_processing - INFO - Image processing complete
+2024-11-29 08:54:50,659 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 08:54:55,709 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 09:00:01,436 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 09:10:09,646 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpohgax0mh.tmp
+2024-11-29 09:10:09,694 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:10:29,324 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: '1.55 ACRE OR 0.63 HECTARE'
+2024-11-29 09:10:29,325 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:33:02,126 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpiopz90gp.tmp
+2024-11-29 09:33:02,156 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:33:22,167 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: '1.55 ACRE OR 0.63 HECTARE'
+2024-11-29 09:33:22,168 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:34:24,873 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp12olymfd.tmp
+2024-11-29 09:34:24,884 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:34:44,478 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: '1.55 ACRE OR 0.63 HECTARE'
+2024-11-29 09:34:44,479 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:43:23,624 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpc1iz3jki.tmp
+2024-11-29 09:43:23,674 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:43:42,248 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: "371.1'"
+2024-11-29 09:43:42,249 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:45:20,992 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp94k3qsag.tmp
+2024-11-29 09:45:21,016 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:45:40,211 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:46:31,910 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp2gqzt0gk.tmp
+2024-11-29 09:46:31,923 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:46:50,620 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: "371.1'"
+2024-11-29 09:46:50,620 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:47:26,932 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpazwzcah4.tmp
+2024-11-29 09:47:26,948 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:47:41,838 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-29 09:47:42,085 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:54:09,851 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp3xerm_m5.tmp
+2024-11-29 09:54:09,897 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:54:09,897 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:54:41,531 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpdazkqr3q.tmp
+2024-11-29 09:54:41,542 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:54:41,543 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:55:16,501 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpt266td_d.tmp
+2024-11-29 09:55:16,514 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:55:16,515 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:55:55,552 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpxjd_5nk9.tmp
+2024-11-29 09:55:55,563 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:55:55,563 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:57:55,564 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpdmvdg0ok.tmp
+2024-11-29 09:57:55,580 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:57:55,580 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:58:45,206 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpeicscl_m.tmp
+2024-11-29 09:58:45,222 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:58:45,222 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 09:59:53,970 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpbngef483.tmp
+2024-11-29 09:59:53,991 - modules.document_processing - INFO - Image processing complete
+2024-11-29 09:59:53,994 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:00:21,628 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpo0ukdn6m.tmp
+2024-11-29 10:00:21,639 - modules.document_processing - INFO - Image processing complete
+2024-11-29 10:00:21,639 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:01:18,085 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmph8cs1cwp.tmp
+2024-11-29 10:01:18,094 - modules.document_processing - INFO - Image processing complete
+2024-11-29 10:01:18,094 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:02:16,650 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpx51ao3ca.tmp
+2024-11-29 10:02:16,661 - modules.document_processing - INFO - Image processing complete
+2024-11-29 10:02:16,661 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:03:32,665 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmplwd0_m36.tmp
+2024-11-29 10:03:32,690 - modules.document_processing - INFO - Image processing complete
+2024-11-29 10:03:32,691 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:05:07,873 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpjglngi6v.tmp
+2024-11-29 10:05:07,898 - modules.document_processing - INFO - Image processing complete
+2024-11-29 10:05:07,899 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:05:11,191 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 10:05:21,476 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 10:08:19,537 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp6zpbujnv.tmp
+2024-11-29 10:08:19,571 - modules.document_processing - INFO - Image processing complete
+2024-11-29 10:08:38,837 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:08:46,613 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpz18z085k.tmp
+2024-11-29 10:08:46,625 - modules.document_processing - INFO - Image processing complete
+2024-11-29 10:09:05,843 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:09:10,745 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 10:09:11,003 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 10:09:32,676 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 10:13:15,511 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 10:37:17,957 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpfqskc_58.tmp
+2024-11-29 10:37:18,004 - modules.document_processing - INFO - Image processing complete
+2024-11-29 10:37:37,530 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 10:37:43,543 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 10:40:04,930 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 13:59:26,737 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 14:00:27,683 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp9cbxycf_.tmp
+2024-11-29 14:00:27,684 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp9cbxycf_.tmp
+2024-11-29 14:00:30,953 - modules.document_processing - INFO - Image processing complete
+2024-11-29 14:00:55,622 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: "3195.2'"
+2024-11-29 14:00:55,622 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 14:00:55,631 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpcdkghff0.tmp
+2024-11-29 14:00:55,647 - modules.document_processing - INFO - Image processing complete
+2024-11-29 14:01:15,523 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 14:05:48,474 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp6i_s84aa.tmp
+2024-11-29 14:05:48,478 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp6i_s84aa.tmp
+2024-11-29 14:05:50,748 - modules.document_processing - INFO - Image processing complete
+2024-11-29 14:06:12,657 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 14:06:12,662 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpslqkkip6.tmp
+2024-11-29 14:06:12,675 - modules.document_processing - INFO - Image processing complete
+2024-11-29 14:06:32,450 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 14:06:39,258 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 14:06:53,773 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 14:07:13,731 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 14:07:20,509 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 15:18:22,094 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 16:37:29,669 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpq82r08_b.tmp
+2024-11-29 16:37:29,673 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpq82r08_b.tmp
+2024-11-29 16:37:31,914 - modules.document_processing - INFO - Image processing complete
+2024-11-29 16:37:53,470 - modules.document_processing - ERROR - Failed to Process Site Data: LandDataProcessor.identify_reference_point_pattern() takes 1 positional argument but 2 were given
+2024-11-29 16:37:53,471 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 16:37:53,475 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpzepwb841.tmp
+2024-11-29 16:37:53,503 - modules.document_processing - INFO - Image processing complete
+2024-11-29 16:38:12,645 - modules.document_processing - ERROR - Failed to Process Site Data: LandDataProcessor.identify_reference_point_pattern() takes 1 positional argument but 2 were given
+2024-11-29 16:38:12,646 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 16:40:05,829 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpbshxqpjf.tmp
+2024-11-29 16:40:05,836 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpbshxqpjf.tmp
+2024-11-29 16:40:08,052 - modules.document_processing - INFO - Image processing complete
+2024-11-29 16:40:29,991 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 16:40:30,000 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpo6za8oet.tmp
+2024-11-29 16:40:30,032 - modules.document_processing - INFO - Image processing complete
+2024-11-29 16:40:53,704 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 17:01:01,909 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 17:01:07,426 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-11-29 17:03:38,436 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:36:01,961 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:36:46,372 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:37:27,633 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:38:52,892 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:40:01,756 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:40:28,756 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:41:35,030 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:44:05,377 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:46:26,993 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:47:40,464 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:47:47,971 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:49:04,431 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 18:54:33,130 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 21:20:28,644 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 21:59:13,089 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpj_axiw19.tmp
+2024-11-29 21:59:13,093 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpj_axiw19.tmp
+2024-11-29 21:59:17,649 - modules.document_processing - INFO - Image processing complete
+2024-11-29 21:59:40,932 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-29 21:59:41,888 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 22:02:20,174 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmppblgqm40.tmp
+2024-11-29 22:02:20,185 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmppblgqm40.tmp
+2024-11-29 22:02:23,016 - modules.document_processing - INFO - Image processing complete
+2024-11-29 22:02:39,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-29 22:02:39,731 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 22:02:43,247 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp0p3eebxo.tmp
+2024-11-29 22:02:43,247 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp0p3eebxo.tmp
+2024-11-29 22:02:43,694 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpsp3xqvzi.tmp
+2024-11-29 22:02:43,695 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpsp3xqvzi.tmp
+2024-11-29 22:02:44,307 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpim0n2s4i.tmp
+2024-11-29 22:02:44,308 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpim0n2s4i.tmp
+2024-11-29 22:02:45,940 - modules.document_processing - INFO - Image processing complete
+2024-11-29 22:02:46,762 - modules.document_processing - INFO - Image processing complete
+2024-11-29 22:02:47,449 - modules.document_processing - INFO - Image processing complete
+2024-11-29 22:02:59,701 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-29 22:02:59,726 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: "3195.2'"
+2024-11-29 22:02:59,727 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 22:03:00,615 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-29 22:03:00,966 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 22:03:01,329 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-29 22:03:01,380 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: "23089.9'"
+2024-11-29 22:03:01,381 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 22:11:18,843 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpr1eac9kw.tmp
+2024-11-29 22:11:18,853 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpr1eac9kw.tmp
+2024-11-29 22:11:21,011 - modules.document_processing - INFO - Image processing complete
+2024-11-29 22:11:35,995 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-29 22:11:36,471 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 22:20:20,251 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpnxwsfp15.tmp
+2024-11-29 22:20:20,271 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpnxwsfp15.tmp
+2024-11-29 22:20:22,888 - modules.document_processing - INFO - Image processing complete
+2024-11-29 22:20:45,914 - modules.document_processing - INFO - Document processed successfully
+2024-11-29 22:59:35,265 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 23:10:38,459 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 23:14:59,518 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-11-29 23:18:57,482 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpczpitopq.tmp
+2024-11-29 23:18:57,491 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpczpitopq.tmp
+2024-11-29 23:19:01,128 - modules.document_processing - INFO - Image processing complete
+2024-11-29 23:19:25,264 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 11:21:38,763 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpzlhbmffl.tmp
+2024-12-02 11:21:38,765 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpzlhbmffl.tmp
+2024-12-02 11:21:41,635 - modules.document_processing - INFO - Image processing complete
+2024-12-02 11:22:06,800 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 11:22:06,804 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmprzmhoi88.tmp
+2024-12-02 11:22:06,816 - modules.document_processing - INFO - Image processing complete
+2024-12-02 11:22:26,485 - modules.document_processing - ERROR - Failed to Process Site Data: could not convert string to float: "371.1'"
+2024-12-02 11:22:26,486 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 11:22:43,305 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 12:14:30,270 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmphd8ty7a0.tmp
+2024-12-02 12:14:30,280 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmphd8ty7a0.tmp
+2024-12-02 12:14:32,720 - modules.document_processing - INFO - Image processing complete
+2024-12-02 12:15:07,621 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 12:15:07,627 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmprg1jq9cf.tmp
+2024-12-02 12:15:07,639 - modules.document_processing - INFO - Image processing complete
+2024-12-02 12:15:27,109 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 12:15:32,665 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 12:15:37,485 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 12:15:46,537 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 12:16:28,628 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp207km9sm.tmp
+2024-12-02 12:16:28,628 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp207km9sm.tmp
+2024-12-02 12:16:30,989 - modules.document_processing - INFO - Image processing complete
+2024-12-02 12:17:03,355 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 15:52:02,692 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 15:52:22,338 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 15:57:34,074 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp7cohx_lk.tmp
+2024-12-02 15:57:34,528 - modules.document_processing - INFO - Image processing complete
+2024-12-02 15:57:57,953 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 15:58:07,314 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 15:58:14,906 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 16:14:22,627 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpe4s8ttad.tmp
+2024-12-02 16:14:22,663 - modules.document_processing - INFO - Image processing complete
+2024-12-02 16:14:34,455 - modules.document_processing - ERROR - Failed to Process Site Data: list index out of range
+2024-12-02 16:14:34,456 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 16:14:34,461 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpw9zhzzqg.tmp
+2024-12-02 16:14:34,471 - modules.document_processing - INFO - Image processing complete
+2024-12-02 16:14:54,277 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 16:15:02,593 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 16:18:33,007 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 16:21:34,103 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 16:22:24,808 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 16:24:49,990 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 16:31:17,551 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 16:32:02,209 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpj9j8bw1f.tmp
+2024-12-02 16:32:02,234 - modules.document_processing - INFO - Image processing complete
+2024-12-02 16:32:21,502 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 16:32:25,726 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 16:32:34,333 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 16:49:52,519 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpwdrfzjpy.tmp
+2024-12-02 16:49:52,546 - modules.document_processing - INFO - Image processing complete
+2024-12-02 16:50:12,873 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 16:50:12,882 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmptreo2bg4.tmp
+2024-12-02 16:50:12,902 - modules.document_processing - INFO - Image processing complete
+2024-12-02 16:50:24,365 - modules.document_processing - ERROR - Failed to Process Site Data: list index out of range
+2024-12-02 16:50:24,366 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 16:50:24,372 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp5d6hx3_a.tmp
+2024-12-02 16:50:24,395 - modules.document_processing - INFO - Image processing complete
+2024-12-02 16:50:43,448 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 16:50:43,460 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpzlpdlbiy.tmp
+2024-12-02 16:50:43,461 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpzlpdlbiy.tmp
+2024-12-02 16:50:46,621 - modules.document_processing - INFO - Image processing complete
+2024-12-02 16:51:12,951 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 16:51:12,957 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp37ctosvc.tmp
+2024-12-02 16:51:12,980 - modules.document_processing - INFO - Image processing complete
+2024-12-02 16:51:33,157 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 16:51:52,496 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 16:51:53,172 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 16:51:59,899 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 16:52:03,104 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 16:52:31,401 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 17:13:40,887 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpc49f2rvg.tmp
+2024-12-02 17:13:40,917 - modules.document_processing - INFO - Image processing complete
+2024-12-02 17:14:01,113 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 17:14:08,980 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:14:14,911 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 17:20:29,027 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpl23vdt3e.tmp
+2024-12-02 17:20:29,050 - modules.document_processing - INFO - Image processing complete
+2024-12-02 17:20:47,004 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 17:21:57,954 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:22:28,716 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 17:23:07,538 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 17:24:51,007 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpmyr023c8.tmp
+2024-12-02 17:24:51,028 - modules.document_processing - INFO - Image processing complete
+2024-12-02 17:25:08,545 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 17:25:08,549 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp3etvwcmy.tmp
+2024-12-02 17:25:08,570 - modules.document_processing - INFO - Image processing complete
+2024-12-02 17:25:26,414 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 17:25:26,420 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp6dfivdf_.tmp
+2024-12-02 17:25:26,422 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp6dfivdf_.tmp
+2024-12-02 17:25:28,757 - modules.document_processing - INFO - Image processing complete
+2024-12-02 17:25:52,075 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 17:25:52,081 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp99681yvy.tmp
+2024-12-02 17:25:52,108 - modules.document_processing - INFO - Image processing complete
+2024-12-02 17:26:11,395 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 17:26:20,164 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:26:20,448 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:26:20,715 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:26:20,999 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:26:21,668 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:26:21,963 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:26:25,512 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:26:28,345 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:26:56,354 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 17:33:49,416 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpt1culvci.tmp
+2024-12-02 17:33:49,427 - modules.document_processing - INFO - Image processing complete
+2024-12-02 17:34:06,877 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 17:34:13,313 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:34:19,730 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-02 17:44:42,840 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpy_pyltsk.tmp
+2024-12-02 17:44:42,862 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpy_pyltsk.tmp
+2024-12-02 17:44:46,947 - modules.document_processing - INFO - Image processing complete
+2024-12-02 17:45:07,526 - modules.document_processing - INFO - Document processed successfully
+2024-12-02 17:45:13,576 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-02 17:45:28,298 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-03 09:43:04,664 - root - ERROR - Unexpected error in data loading: [Errno 11001] getaddrinfo failed
+2024-12-03 09:43:16,387 - root - ERROR - Unexpected error in data loading: [Errno 11001] getaddrinfo failed
+2024-12-03 09:43:32,570 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-03 09:43:46,320 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-03 09:51:12,946 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmphlewdcah.tmp
+2024-12-03 09:51:13,102 - modules.document_processing - INFO - Image processing complete
+2024-12-03 09:51:33,869 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 09:51:41,112 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-03 09:52:06,815 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-03 10:53:35,921 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpmlkoqhmm.tmp
+2024-12-03 10:53:35,951 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpmlkoqhmm.tmp
+2024-12-03 10:53:38,947 - modules.document_processing - INFO - Image processing complete
+2024-12-03 10:54:04,586 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 10:54:04,590 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpg5zjzdb4.tmp
+2024-12-03 10:54:04,602 - modules.document_processing - INFO - Image processing complete
+2024-12-03 10:57:06,013 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp4uvxzqdz.tmp
+2024-12-03 10:57:06,015 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp4uvxzqdz.tmp
+2024-12-03 10:57:07,906 - modules.document_processing - INFO - Image processing complete
+2024-12-03 10:57:20,714 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp76h32_wa.tmp
+2024-12-03 10:57:20,716 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp76h32_wa.tmp
+2024-12-03 10:57:22,524 - modules.document_processing - INFO - Image processing complete
+2024-12-03 13:24:09,802 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-03 13:40:33,123 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmprw0ud55a.tmp
+2024-12-03 13:40:33,608 - modules.document_processing - INFO - Image processing complete
+2024-12-03 13:41:54,881 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpfuyd7yuz.tmp
+2024-12-03 13:41:54,899 - modules.document_processing - INFO - Image processing complete
+2024-12-03 13:42:06,053 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-03 13:42:06,324 - modules.document_processing - ERROR - Failed to Process Site Data: LandDataProcessor.find_reference_point() takes 1 positional argument but 2 were given
+2024-12-03 13:42:06,324 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 13:42:06,329 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp2lk2tjjy.tmp
+2024-12-03 13:42:06,329 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp2lk2tjjy.tmp
+2024-12-03 13:42:08,837 - modules.document_processing - INFO - Image processing complete
+2024-12-03 13:44:08,282 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmper1_9cfy.tmp
+2024-12-03 13:44:08,283 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmper1_9cfy.tmp
+2024-12-03 13:44:10,144 - modules.document_processing - INFO - Image processing complete
+2024-12-03 13:45:34,774 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpiob6y92q.tmp
+2024-12-03 13:45:34,774 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpiob6y92q.tmp
+2024-12-03 13:45:36,549 - modules.document_processing - INFO - Image processing complete
+2024-12-03 13:46:09,910 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpegdp5acp.tmp
+2024-12-03 13:46:09,910 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpegdp5acp.tmp
+2024-12-03 13:46:11,754 - modules.document_processing - INFO - Image processing complete
+2024-12-03 13:50:34,120 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 504 Deadline Exceeded
+2024-12-03 13:50:34,129 - modules.document_processing - ERROR - Processing attempt 1 failed: 504 Deadline Exceeded
+2024-12-03 13:52:15,640 - openai._base_client - INFO - Retrying request to /chat/completions in 0.387769 seconds
+2024-12-03 13:54:40,665 - openai._base_client - INFO - Retrying request to /chat/completions in 0.466116 seconds
+2024-12-03 13:55:00,552 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-03 13:55:01,325 - modules.document_processing - ERROR - Failed to Process Site Data: list index out of range
+2024-12-03 13:55:01,328 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 13:55:38,048 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 504 Deadline Exceeded
+2024-12-03 13:55:38,049 - modules.document_processing - ERROR - Processing attempt 1 failed: 504 Deadline Exceeded
+2024-12-03 13:56:35,224 - openai._base_client - INFO - Retrying request to /chat/completions in 0.419158 seconds
+2024-12-03 13:56:57,777 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-03 13:56:58,427 - modules.document_processing - ERROR - Failed to Process Site Data: list index out of range
+2024-12-03 13:56:58,429 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:01:18,287 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmplnptnmo8.tmp
+2024-12-03 14:01:18,321 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:01:18,322 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting ',' delimiter: line 98 column 10 (char 3220)
+2024-12-03 14:02:34,455 - openai._base_client - INFO - Retrying request to /chat/completions in 0.976907 seconds
+2024-12-03 14:03:25,415 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpchiohsg3.tmp
+2024-12-03 14:03:25,440 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:03:25,442 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting ',' delimiter: line 98 column 18 (char 3988)
+2024-12-03 14:03:58,246 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmprgw264br.tmp
+2024-12-03 14:03:58,255 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:03:58,258 - modules.document_processing - ERROR - Processing attempt 1 failed: Illegal trailing comma before end of object: line 96 column 57 (char 3952)
+2024-12-03 14:04:11,494 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpq_6i4vie.tmp
+2024-12-03 14:04:11,505 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:04:11,506 - modules.document_processing - ERROR - Processing attempt 1 failed: Illegal trailing comma before end of object: line 96 column 57 (char 3952)
+2024-12-03 14:04:31,171 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpmsnnrnqw.tmp
+2024-12-03 14:04:31,182 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:04:31,183 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting ',' delimiter: line 98 column 18 (char 3988)
+2024-12-03 14:05:31,515 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp17s69ra6.tmp
+2024-12-03 14:05:31,547 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:05:31,547 - modules.document_processing - ERROR - Processing attempt 1 failed: Illegal trailing comma before end of object: line 91 column 18 (char 3752)
+2024-12-03 14:06:18,659 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpfs_9b5wk.tmp
+2024-12-03 14:06:18,669 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:06:18,789 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:06:18,790 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:07:48,151 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp5u08mmr2.tmp
+2024-12-03 14:07:48,163 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:07:48,291 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:07:48,291 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:09:19,566 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpzhru52g3.tmp
+2024-12-03 14:09:19,590 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:09:19,650 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:09:19,651 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:10:11,873 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpbtzwm2kr.tmp
+2024-12-03 14:10:11,886 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:10:11,976 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:10:11,977 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:12:23,024 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmptyyod4yd.tmp
+2024-12-03 14:12:23,048 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:12:23,102 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:12:23,102 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:12:47,596 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp38a75sa8.tmp
+2024-12-03 14:12:47,610 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:12:47,679 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:12:47,679 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:12:50,992 - modules.document_processing - INFO - OPENAI Failed to Extract Site Plan Data: Request timed out.
+2024-12-03 14:12:50,993 - modules.document_processing - ERROR - Processing attempt 1 failed: Request timed out.
+2024-12-03 14:13:15,995 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpv1sn_kcj.tmp
+2024-12-03 14:13:16,004 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:13:16,060 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:13:16,060 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:13:30,865 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp9zyynuxn.tmp
+2024-12-03 14:13:30,884 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:13:30,908 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:13:30,909 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:13:57,980 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp9st5vm6z.tmp
+2024-12-03 14:13:58,001 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:13:58,098 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:13:58,099 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:15:32,907 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpr5hf2dio.tmp
+2024-12-03 14:15:32,926 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:15:33,082 - modules.document_processing - ERROR - Processing attempt 1 failed: list indices must be integers or slices, not str
+2024-12-03 14:16:30,414 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpcialufjd.tmp
+2024-12-03 14:16:30,423 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:16:30,478 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:16:30,479 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:18:57,674 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp8ybqurzl.tmp
+2024-12-03 14:18:57,685 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:18:57,767 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:18:57,768 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:20:33,510 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp2qus03wr.tmp
+2024-12-03 14:20:33,521 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:20:33,579 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:20:33,580 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:21:26,177 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmphyzrgmca.tmp
+2024-12-03 14:21:26,191 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:21:26,244 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:21:26,245 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:21:59,308 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpnqnpej9a.tmp
+2024-12-03 14:21:59,317 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:21:59,347 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:21:59,347 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:22:13,353 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpgal2gr43.tmp
+2024-12-03 14:22:13,364 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:22:13,386 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:22:13,386 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:22:42,719 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpau8g_eft.tmp
+2024-12-03 14:22:42,733 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:22:42,777 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:22:42,778 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:22:59,428 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpyt_grwhi.tmp
+2024-12-03 14:22:59,438 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:22:59,492 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:22:59,492 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:23:25,079 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpsyq5cisr.tmp
+2024-12-03 14:23:25,094 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:23:25,143 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:23:25,143 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:23:57,538 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpo7mnz63s.tmp
+2024-12-03 14:23:57,549 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:23:57,607 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:23:57,608 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:26:44,479 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmppjl89ww5.tmp
+2024-12-03 14:26:44,493 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:26:44,549 - modules.document_processing - ERROR - Failed to Process Site Data: list indices must be integers or slices, not str
+2024-12-03 14:26:44,549 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:31:39,644 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpnywr_wik.tmp
+2024-12-03 14:31:39,661 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:31:40,486 - modules.document_processing - ERROR - Failed to Process Site Data: LandDataProcessor.find_reference_point() takes 1 positional argument but 2 were given
+2024-12-03 14:31:40,487 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-03 14:32:17,906 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpvce56toq.tmp
+2024-12-03 14:32:17,916 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:32:18,308 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 14:32:40,986 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpxqmbylo6.tmp
+2024-12-03 14:32:40,994 - modules.document_processing - INFO - Image processing complete
+2024-12-03 14:32:41,263 - modules.document_processing - INFO - Document processed successfully
+2024-12-03 23:07:10,750 - asyncio - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-75966' coro=<WebSocketProtocol13.write_message.<locals>.wrapper() done, defined at C:\Users\SethAntanah\Desktop\Projects\Other Projects\Streamlit Projects\landsearch\.venv\Lib\site-packages\tornado\websocket.py:1086> exception=WebSocketClosedError()>
+Traceback (most recent call last):
+  File "C:\Users\SethAntanah\Desktop\Projects\Other Projects\Streamlit Projects\landsearch\.venv\Lib\site-packages\tornado\websocket.py", line 1088, in wrapper
+    await fut
+tornado.iostream.StreamClosedError: Stream is closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\SethAntanah\Desktop\Projects\Other Projects\Streamlit Projects\landsearch\.venv\Lib\site-packages\tornado\websocket.py", line 1090, in wrapper
+    raise WebSocketClosedError()
+tornado.websocket.WebSocketClosedError
+2024-12-04 08:55:43,202 - root - ERROR - Unexpected error in data loading: [Errno 11001] getaddrinfo failed
+2024-12-04 08:56:02,841 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-04 08:56:42,171 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpx6b8zdq_.tmp
+2024-12-04 08:56:42,425 - modules.document_processing - INFO - Image processing complete
+2024-12-04 08:56:43,997 - modules.document_processing - INFO - Document processed successfully
+2024-12-04 09:05:41,926 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp2qa11a6f.tmp
+2024-12-04 09:05:41,928 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp2qa11a6f.tmp
+2024-12-04 09:05:44,587 - modules.document_processing - INFO - Image processing complete
+2024-12-04 09:06:08,081 - modules.document_processing - INFO - Document processed successfully
+2024-12-04 09:07:25,329 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-04 09:07:43,690 - httpx - INFO - HTTP Request: GET https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch?select=%2A "HTTP/2 200 OK"
+2024-12-04 09:23:16,631 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpafnyltmq.tmp
+2024-12-04 09:23:16,636 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpafnyltmq.tmp
+2024-12-04 09:23:20,756 - modules.document_processing - INFO - Image processing complete
+2024-12-04 09:24:06,712 - modules.document_processing - INFO - Document processed successfully
+2024-12-04 09:26:48,826 - httpx - INFO - HTTP Request: POST https://ewwnktpvetlufmjehauf.supabase.co/rest/v1/LandSearch "HTTP/2 201 Created"
+2024-12-04 09:29:08,806 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp2_3v3onp.tmp
+2024-12-04 09:29:08,837 - modules.document_processing - INFO - Image processing complete
+2024-12-04 09:29:28,819 - modules.document_processing - ERROR - Failed to Process Site Data: list index out of range
+2024-12-04 09:29:28,820 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 09:29:28,824 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp1wj1emk4.tmp
+2024-12-04 09:29:28,838 - modules.document_processing - INFO - Image processing complete
+2024-12-04 09:29:48,531 - modules.document_processing - ERROR - Failed to Process Site Data: list index out of range
+2024-12-04 09:29:48,532 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 09:29:48,537 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpj3lw_382.tmp
+2024-12-04 09:29:48,538 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpj3lw_382.tmp
+2024-12-04 09:29:50,386 - modules.document_processing - INFO - Image processing complete
+2024-12-04 09:30:16,727 - modules.document_processing - INFO - Document processed successfully
+2024-12-04 09:30:16,731 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp28im_acp.tmp
+2024-12-04 09:30:16,754 - modules.document_processing - INFO - Image processing complete
+2024-12-04 09:38:45,188 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp6m7mhtdr.tmp
+2024-12-04 09:38:45,218 - modules.document_processing - INFO - Image processing complete
+2024-12-04 09:40:16,903 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 504 Deadline Exceeded
+2024-12-04 09:40:16,905 - modules.document_processing - ERROR - Processing attempt 1 failed: 504 Deadline Exceeded
+2024-12-04 09:49:14,995 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp_xlnvu6z.tmp
+2024-12-04 09:49:14,996 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp_xlnvu6z.tmp
+2024-12-04 09:49:18,828 - modules.document_processing - INFO - Image processing complete
+2024-12-04 09:49:57,152 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 09:49:58,009 - modules.document_processing - INFO - Document processed successfully
+2024-12-04 09:52:03,349 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpk1mnnn15.tmp
+2024-12-04 09:52:03,375 - modules.document_processing - INFO - Image processing complete
+2024-12-04 10:02:03,631 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 504 Deadline Exceeded
+2024-12-04 10:02:03,654 - modules.document_processing - ERROR - Processing attempt 1 failed: 504 Deadline Exceeded
+2024-12-04 10:02:05,719 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpe_l7nrwh.tmp
+2024-12-04 10:02:05,757 - modules.document_processing - INFO - Image processing complete
+2024-12-04 10:03:49,485 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp5xztnz7t.tmp
+2024-12-04 10:03:49,487 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp5xztnz7t.tmp
+2024-12-04 10:03:52,306 - modules.document_processing - INFO - Image processing complete
+2024-12-04 10:03:52,307 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 10:03:52,931 - modules.document_processing - INFO - OPENAI CALL!
+2024-12-04 10:04:16,724 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 10:04:16,732 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 10:04:16,733 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 10:04:16,977 - modules.document_processing - ERROR - Failed to Process Site Data: expected string or bytes-like object, got 'NoneType'
+2024-12-04 10:04:16,978 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 10:04:16,978 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 10:05:25,674 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp1r0ebq_y.tmp
+2024-12-04 10:05:25,675 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp1r0ebq_y.tmp
+2024-12-04 10:05:27,794 - modules.document_processing - INFO - Image processing complete
+2024-12-04 10:05:27,795 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 10:05:28,388 - modules.document_processing - INFO - OPENAI CALL!
+2024-12-04 10:06:35,878 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 10:06:35,880 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 10:06:35,880 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 10:06:36,081 - modules.document_processing - ERROR - Failed to Process Site Data: expected string or bytes-like object, got 'NoneType'
+2024-12-04 10:06:36,082 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 10:06:36,082 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 10:12:06,127 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 504 Deadline Exceeded
+2024-12-04 10:12:06,146 - modules.document_processing - ERROR - Processing attempt 1 failed: 504 Deadline Exceeded
+2024-12-04 10:51:40,796 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp709z8ryv.tmp
+2024-12-04 10:51:40,816 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmp709z8ryv.tmp
+2024-12-04 10:51:43,652 - modules.document_processing - INFO - Image processing complete
+2024-12-04 10:51:43,652 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 10:51:44,404 - modules.document_processing - INFO - OPENAI CALL!
+2024-12-04 11:01:58,002 - openai._base_client - INFO - Retrying request to /chat/completions in 0.397508 seconds
+2024-12-04 11:04:03,860 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpb1idbkjd.tmp
+2024-12-04 11:04:03,862 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpb1idbkjd.tmp
+2024-12-04 11:04:05,911 - modules.document_processing - INFO - Image processing complete
+2024-12-04 11:04:05,911 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 11:04:05,912 - modules.document_processing - INFO - GEMINI CALL!
+2024-12-04 11:14:08,957 - modules.document_processing - INFO - GEMINI Failed to Extract Site Plan Data: 504 Deadline Exceeded
+2024-12-04 11:14:08,967 - modules.document_processing - ERROR - Processing attempt 1 failed: 504 Deadline Exceeded
+2024-12-04 11:17:26,905 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpld8ctg9b.tmp
+2024-12-04 11:17:26,906 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpld8ctg9b.tmp
+2024-12-04 11:17:29,419 - modules.document_processing - INFO - Image processing complete
+2024-12-04 11:17:29,420 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 11:17:29,723 - modules.document_processing - INFO - OPENAI CALL!
+2024-12-04 11:18:09,302 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 11:18:09,327 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 11:18:09,328 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 11:18:09,610 - modules.document_processing - ERROR - Failed to Process Site Data: list index out of range
+2024-12-04 11:18:09,611 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 11:18:09,611 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 11:18:15,181 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpguerowcv.tmp
+2024-12-04 11:18:15,182 - modules.document_processing - INFO - Converting PDF to image: C:\Users\SETHAN~1\AppData\Local\Temp\tmpguerowcv.tmp
+2024-12-04 11:18:16,974 - modules.document_processing - INFO - Image processing complete
+2024-12-04 11:18:16,974 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 11:18:17,277 - modules.document_processing - INFO - OPENAI CALL!
+2024-12-04 11:18:55,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-04 11:18:55,644 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 11:18:55,644 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 11:18:55,790 - modules.document_processing - ERROR - Failed to Process Site Data: expected string or bytes-like object, got 'NoneType'
+2024-12-04 11:18:55,790 - modules.document_processing - INFO - Validation and Processing Completed
+2024-12-04 11:18:55,791 - modules.document_processing - WARNING - Invalid result received, retrying...
+2024-12-04 11:58:34,447 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpmvvn55ak.tmp
+2024-12-04 11:58:34,517 - modules.document_processing - INFO - Image processing complete
+2024-12-04 11:58:34,518 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 11:58:34,519 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 11:58:34,520 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 11:58:34,521 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 11:59:37,652 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpn27inzyx.tmp
+2024-12-04 11:59:37,664 - modules.document_processing - INFO - Image processing complete
+2024-12-04 11:59:37,664 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 11:59:37,665 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 11:59:37,666 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 11:59:37,666 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:00:31,971 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmp03yzm77k.tmp
+2024-12-04 12:00:31,990 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:00:31,990 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:00:31,991 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:00:31,991 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:00:31,992 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:01:17,978 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmps9kxqynf.tmp
+2024-12-04 12:01:17,990 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:01:17,990 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:01:17,991 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:01:17,994 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:01:17,995 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:01:56,291 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpt_dpo3ix.tmp
+2024-12-04 12:01:56,305 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:01:56,305 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:01:56,306 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:01:56,306 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:01:56,307 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
+2024-12-04 12:05:29,533 - modules.document_processing - INFO - Starting processing of C:\Users\SETHAN~1\AppData\Local\Temp\tmpzcxipf_a.tmp
+2024-12-04 12:05:29,684 - modules.document_processing - INFO - Image processing complete
+2024-12-04 12:05:29,685 - modules.document_processing - INFO - LLM Processing Started
+2024-12-04 12:05:29,686 - modules.document_processing - INFO - LLM Processing Completed
+2024-12-04 12:05:29,687 - modules.document_processing - INFO - Validation and Processing Started
+2024-12-04 12:05:29,690 - modules.document_processing - ERROR - Processing attempt 1 failed: Expecting value: line 3 column 44 (char 109)
