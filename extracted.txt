@@ -1,0 +1,67 @@
+Scale 1:2500
+LOCALITY
+KATAMANSO
+PLAN OF LAND
+for: MRS NAA AYELEY BROWN
+-Shewn Edged Pink-
+DISTRICT
+K.K.M.A
+Area
+1227500 E
+1228000 E
+-402500 N
+AZ
+Bearings referred to
+Meridian 1" West.
+SGGA. F0258/21/3
+National Grid.
+SGGA F0258/21/29
+402000 N
+From
+SGGA F0258/21/4
+SGGA F0258/21/10
+PLAN DATA
+X
+Y
+To
+0.16 Acres (0.07 Ha.)
+REGION
+GREATER ACCRA
+1228500 E
+Bearing Distance
+401500 N
+SGGA. F0258/21/1 402081.98 1227948.15 SGGA. F0258/21/2 334°16 101.6'
+SGGA. F0258/21/2 402173.48 1227904.04 SGGA. F0258/21/3 065°31' 70.0°
+SGGA F0258/21/3 402202.49 1227967.77 SGGA, F0258/21/4 154°44' 101.2
+SGGA. F0258/21/4 402110.97 1228010.97 SGGA. F0258/21/4 245°13 69.2°
+SGGA. EX/TD/19/2 358320.50 1260681.89 SGGA. F0258/21/1 323°12 54,649.5
+402500 N-
+402000 N-
+1227500
+Surveyor
+EDWIN A
+Licensed
+D'SE
+TAWIAH
+POPEMEN SURVERTING AND
+ENGINEERING CONSULT
+1228000 E
+1. EDWIN ADDO-TAWIAH Licensed survey certify
+that this plan is faithfully and correctly executed
+and accurately shows the land within the limits
+of the description given to me by my client.
+Date 22-09-2021
+Licensed Surveyor No. 388
+APPROVED BY
+ACC
+THE REGIONAL SURVEY
+SEATER
+Approved Seal
+401500 N-
+1228500 E
+Approved By
+40
+for: Director of Surveys
+Regional Surveyor(CAR)
+Date:
+OCT. 2

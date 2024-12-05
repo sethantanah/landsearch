@@ -187,7 +187,7 @@ class LandDataProcessor:
             logger.debug(f"Processing {len(plan_data)} plan data points")
 
             # Process survey points
-            for i in range(len(plan_data)):
+            for i in range(len(plan_data["from"])):
                 try:
                     if plan_data["x_coords"][i] and plan_data["y_coords"][i]:
                         name = (
@@ -235,8 +235,8 @@ class LandDataProcessor:
                         points.append(point)
                         logger.debug(f"Processed point {name} successfully")
                 except Exception as e:
-                    logger.error(f"Error processing point at index {i}: {str(e)}")
-                    continue
+                     logger.error(f"Error processing point at index {i}: {str(e)}")
+                     continue
 
             # Process boundary coordinates
             logger.info("Processing boundary coordinates")
@@ -330,5 +330,5 @@ class LandDataProcessor:
             return result
 
         except Exception as e:
-            logger.error(f"Error in process_land_data: {str(e)}")
-            raise
+             logger.error(f"Error in process_land_data: {str(e)}")
+             raise

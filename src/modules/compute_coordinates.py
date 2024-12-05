@@ -134,6 +134,33 @@ class ComputeCoordinates:
 
         return stack
 
+    def find_reference_point(self, points: List[dict]) -> int:
+        """Identify the reference point in a set of coordinates."""
+        try:
+
+            def calculate_distance(p1, p2):
+                return (
+                    (p1["latitude"] - p2["latitude"]) ** 2
+                    + (p1["longitude"] - p2["longitude"]) ** 2
+                ) ** 0.5
+
+            def find_outlier_score(points):
+                scores = []
+                for i, point in enumerate(points):
+                    total_distance = 0
+                    for j, other_point in enumerate(points):
+                        if i != j:
+                            total_distance += calculate_distance(point, other_point)
+                    avg_distance = total_distance / (len(points) - 1)
+                    scores.append((avg_distance, i))
+                return scores
+
+            outlier_scores = find_outlier_score(points)
+            max_score, max_index = max(outlier_scores)
+            return max_index
+        except Exception:
+            raise
+
     def process_data(self, data: dict) -> dict:
         survey_points = data["survey_points"]
         for index, point in enumerate(survey_points):
@@ -152,10 +179,12 @@ class ComputeCoordinates:
 
         point_list = []
         for coord in data["survey_points"]:
-            if not coord["converted_coords"]["ref_point"]:
                 point_list.append(coord["converted_coords"])
 
-        data["point_list"] = self.order_points_by_bearing(point_list)
+        ref_index = self.find_reference_point(point_list)
+        point_list.pop(ref_index)
+
+        data["point_list"] = self.corr_arrange_points(point_list)
 
         for index, boundary in enumerate(data["boundary_points"]):
             lat, lon = self.ghana_grid_to_latlon(

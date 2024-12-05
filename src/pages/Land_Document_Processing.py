@@ -7,7 +7,7 @@ from utils import edit_data
 
 # Initialize the DocumentProcessor
 processor = DocumentProcessor(llm_api_key="your-api-key")
-
+# st.session_state["processed_docs"] = []
 # App Title
 st.title("Document Processing App")
 
@@ -29,7 +29,7 @@ uploaded_files = st.file_uploader(
     accept_multiple_files=True,
 )
 
-model = st.selectbox(label="Model", options=["GEMINI", "OPENAI"])
+model = st.selectbox(label="Model", options=["GEMINI", "OPENAI", "GENERAL"])
 
 # Process Documents
 if uploaded_files:
@@ -50,8 +50,6 @@ if uploaded_files:
 
                     # Process the document
                     result = processor.process_document(temp_file.name, file.name, model)
-                    st.write(result)
-
                     if result:
                         processed_docs.append(result.data["results"])
                         st.success(f"Successfully processed {file.name}")
@@ -62,7 +60,7 @@ if uploaded_files:
                     st.error(f"An error occurred while processing {file.name}: {e}")
 
             # Update session state with processed documents
-            # st.session_state["processed_docs"] = processed_docs
+            st.session_state["processed_docs"] = processed_docs
 
 else:
     st.info("Please upload documents to begin processing.")

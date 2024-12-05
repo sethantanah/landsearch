@@ -5,6 +5,7 @@ from streamlit_folium import st_folium
 from utils.filters import FilterUtils
 from utils.data_loader import DataLoader
 from utils.map_utils import MapUtils
+from utils import edit_data
 
 
 def main():
@@ -26,7 +27,7 @@ def main():
 
     if "loaded_land_data" in st.session_state:
         land_data = st.session_state["loaded_land_data"]
-        if land_data:
+        if len(land_data) > 0:
             # Extract plot metadata for filtering
             plots_metadata = DataLoader.extract_plot_metadata(land_data["plots"])
 
@@ -54,7 +55,11 @@ def main():
 
             if m:
                 # Display Folium map
-                output = st_folium(m, width=None, height=600)
+                output = st_folium(m, width=None, height=300)
+            
+            if "search_data" in st.session_state:
+                search_data = st.session_state["search_data"]
+                edit_data.edit_data([search_data.data["results"]])
 
             # Details column
             # with details_col:

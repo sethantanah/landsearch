@@ -1,62 +1,73 @@
 import streamlit as st
 import json
 
-sample_prompt_result = """{
-                            "owners": ["MRS NAA AYELEY BROWN"],
-                            "plot_number": None,
-                            "date": "22-09-2021",
-                            "area": "0.16",
-                            "metric": "Acres",
-                            "scale": "1:2500",
-                            "locality": "KATAMANSO",
-                            "district": "K.K.M.A",
-                            "region": "GREATER ACCRA",
-                            "other_location_details": "Shewn Edged Pink",
-                            "surveyors_name": "EDWIN ADDO-TAWIAH",
-                            "surveyors_location": None,
-                            "surveyors_reg_number": "388",
-                            "regional_number": None,
-                            "reference_number": None,
-                            "site_plan_data": {
-                                "plan_data": {
-                                    "from": [
-                                        "SGGA. F0258/21/1",
-                                        "SGGA. F0258/21/2",
-                                        "SGGA. F0258/21/3",
-                                        "SGGA. F0258/21/4",
-                                        "SGGA. EX/TD/19/2",
-                                    ],
-                                    "x_coords": [
-                                        "402081.98",
-                                        "402173.48",
-                                        "402202.49",
-                                        "402110.97",
-                                        "358320.50",
-                                    ],
-                                    "y_coords": [
-                                        "1227948.15",
-                                        "1227904.04",
-                                        "1227967.77",
-                                        "1228010.97",
-                                        "1260681.89",
-                                    ],
-                                    "bearing": ["334°16'", "065°31'", "154°44'", "245°13′", "323°12"],
-                                    "distance": ["101.6", "70.0", "101.2", "69.2", "54,649.5"],
-                                    "to": [
-                                        "SGGA. F0258/21/2",
-                                        "SGGA. F0258/21/3",
-                                        "SGGA. F0258/21/4",
-                                        "SGGA. F0258/21/4",
-                                        "SGGA. F0258/21/1",
-                                    ],
-                                    "ref": [True, True, True, True, False],
-                                },
-                                "north_easterns": {
-                                    "norths": ["402500", "402000", "401500"],
-                                    "easterns": ["1227500", "1228000", "1228500"],
-                                },
-                            },
+sample_prompt_result = """result = {
+                    "owners": [
+                        "TRANSPORT RESEARCH & EDUCATION CENTRE, KUMASI (TRECK)"
+                    ],
+                    "plot_number": "15B",
+                    "date": "02/02/2022",
+                    "area": "1.78",
+                    "metric": "Acres",
+                    "scale": "1:2500",
+                    "locality": "Research Hills",
+                    "district": "OFORIKROM",
+                    "region": "ASHANTI",
+                    "other_location_details": None,
+                    "surveyors_name": "DR. A. ARKO-ADJEI",
+                    "surveyors_location": "P. O. BOX UP 1703 KNUST-KUMASI",
+                    "surveyors_reg_number": "316",
+                    "regional_number": None,
+                    "reference_number": None,
+                    "site_plan_data": {
+                        "plan_data": {
+                        "from": [
+                            "KNUST.TREK.10/2021/1",
+                            "KNUST.TREK.10/2021/2",
+                            "KNUST.TREK.10/2021/3",
+                            "KNUST.TREK.10/2021/4",
+                            "KNUST.TREK.10/2021/5",
+                            "KNUST.CEPB.10/2021/2",
+                            "KNUST.CEPB.10/2021/3",
+                            "SGA.CORS 2020 3"
+                        ],
+                        "x_coords": [
+                            "724125.686",
+                            "724103.844",
+                            "724089.960",
+                            "724057.009",
+                            "724197.311",
+                            "724330.685",
+                            "724294.927",
+                            "732285.928"
+
+                        ],
+                        "y_coords": [
+                            "695158.748",
+                            "695149.339",
+                            "695129.526",
+                            "694842.085",
+                            "694820.230",
+                            "695135.853",
+                            "694811.094",
+                            "673148.096"
+                        ],
+                        "bearing": [],
+                        "distance": [],
+                        "to": []
+                        },
+                        "north_easterns": {
+                        "norths": [
+                            "694500",
+                            "695500"
+                        ],
+                        "easterns": [
+                            "723500",
+                            "724500"
+                        ]
                         }
+                    }
+                }
                 """
 # Sample input data
 data = [

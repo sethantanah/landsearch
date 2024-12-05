@@ -8,131 +8,135 @@ from utils.convert_string_to_float import to_float
 
 
 def edit_data(data):
-    # Variables to control pagination
-    if "current_page" not in st.session_state:
-        st.session_state.current_page = 0
+        # Variables to control pagination
+        if "current_page" not in st.session_state:
+            st.session_state.current_page = 0
 
-    # Pagination Logic
-    def navigate(direction):
-        """Navigates through pages based on direction."""
-        if direction == "next" and st.session_state.current_page < len(data) - 1:
-            st.session_state.current_page += 1
-        elif direction == "prev" and st.session_state.current_page > 0:
-            st.session_state.current_page -= 1
+        # Pagination Logic
+        def navigate(direction):
+            """Navigates through pages based on direction."""
+            if direction == "next" and st.session_state.current_page < len(data) - 1:
+                st.session_state.current_page += 1
+            elif direction == "prev" and st.session_state.current_page > 0:
+                st.session_state.current_page -= 1
 
-    # Display Current Page Data
-    current_data = data[st.session_state.current_page]
-    with st.sidebar:
-        st.subheader(
-            f"Editing Data for Page {st.session_state.current_page + 1} of {len(data)}"
-        )
+        # Display Current Page Data
+        try:
+            current_data = data[st.session_state.current_page]
+        except Exception:
+            st.session_state.current_page = 0
+            current_data = data[st.session_state.current_page]
+        with st.sidebar:
+            st.subheader(
+                f"Editing Data for Page {st.session_state.current_page + 1} of {len(data)}"
+            )
 
-    # Pagination Controls
-    with st.sidebar:
-        col1, col2 = st.columns(2)
-        with col1:
-            if st.button("Previous", on_click=navigate, args=("prev",)):
-                pass
+        # Pagination Controls
+        with st.sidebar:
+            col1, col2 = st.columns(2)
+            with col1:
+                if st.button("Previous", on_click=navigate, args=("prev",)):
+                    pass
 
-        with col2:
-            if st.button("Next", on_click=navigate, args=("next",)):
-                pass
+            with col2:
+                if st.button("Next", on_click=navigate, args=("next",)):
+                    pass
 
-    edit_data_func(current_data, st.session_state.current_page)
+        edit_data_func(current_data, st.session_state.current_page)
 
 
 def edit_data_func(data, index: int = 0):
-    # Display title
-    # st.title("Plot Data Editor")
+        # Display title
+        # st.title("Plot Data Editor")
 
-    # Plot Information Section
-    st.subheader("Edit Plot Information")
-    cols = st.columns(3)
-    # Group 1: General Info
-    with cols[0]:
-        data["plot_info"]["plot_number"] = st.text_input(
-            "Plot Number", data["plot_info"]["plot_number"] or ""
-        )
-        data["plot_info"]["area"] = st.number_input(
-            "Area", value=data["plot_info"]["area"]
-        )
-        data["plot_info"]["metric"] = st.text_input(
-            "Metric", data["plot_info"]["metric"]
-        )
-        data["plot_info"]["date"] = st.text_input("Date", data["plot_info"]["date"])
-
-    # Group 2: Location Details
-    with cols[1]:
-        data["plot_info"]["locality"] = st.text_input(
-            "Locality", data["plot_info"]["locality"]
-        )
-        data["plot_info"]["district"] = st.text_input(
-            "District", data["plot_info"]["district"]
-        )
-        data["plot_info"]["region"] = st.text_input(
-            "Region", data["plot_info"]["region"]
-        )
-
-    # Group 3: Ownership & Surveyor Info
-    with cols[2]:
-        data["plot_info"]["owners"] = st.text_area(
-            "Owners (comma-separated)",
-            ", ".join(data["plot_info"]["owners"]),
-        ).split(", ")
-        data["plot_info"]["surveyors_name"] = st.text_input(
-            "Surveyor's Name", data["plot_info"]["surveyors_name"]
-        )
-        data["plot_info"]["surveyors_location"] = st.text_input(
-            "Surveyor's Location", data["plot_info"]["surveyors_location"] or ""
-        )
-        data["plot_info"]["surveyors_reg_number"] = st.text_input(
-            "Surveyor's Registration Number",
-            data["plot_info"]["surveyors_reg_number"],
-        )
-
-    # Survey Points Section
-    st.subheader("Edit Survey Points")
-    for i, point in enumerate(data["survey_points"]):
-        st.markdown(f"**Survey Point {i+1}: {point['point_name']}**")
+        # Plot Information Section
+        st.subheader("Edit Plot Information")
         cols = st.columns(3)
+        # Group 1: General Info
         with cols[0]:
-            point["point_name"] = st.text_input(
-                f"Point Name {i+1}", point["point_name"]
+            data["plot_info"]["plot_number"] = st.text_input(
+                "Plot Number", data["plot_info"]["plot_number"] or ""
             )
+            data["plot_info"]["area"] = st.number_input(
+                "Area", value=data["plot_info"]["area"]
+            )
+            data["plot_info"]["metric"] = st.text_input(
+                "Metric", data["plot_info"]["metric"]
+            )
+            data["plot_info"]["date"] = st.text_input("Date", data["plot_info"]["date"])
+
+        # Group 2: Location Details
         with cols[1]:
-            point["original_coords"]["x"] = st.number_input(
-                f"X Coordinate {i+1}", value=point["original_coords"]["x"]
+            data["plot_info"]["locality"] = st.text_input(
+                "Locality", data["plot_info"]["locality"]
             )
+            data["plot_info"]["district"] = st.text_input(
+                "District", data["plot_info"]["district"]
+            )
+            data["plot_info"]["region"] = st.text_input(
+                "Region", data["plot_info"]["region"]
+            )
+
+        # Group 3: Ownership & Surveyor Info
         with cols[2]:
-            point["original_coords"]["y"] = st.number_input(
-                f"Y Coordinate {i+1}", value=point["original_coords"]["y"]
+            data["plot_info"]["owners"] = st.text_area(
+                "Owners (comma-separated)",
+                ", ".join(data["plot_info"]["owners"]),
+            ).split(", ")
+            data["plot_info"]["surveyors_name"] = st.text_input(
+                "Surveyor's Name", data["plot_info"]["surveyors_name"]
+            )
+            data["plot_info"]["surveyors_location"] = st.text_input(
+                "Surveyor's Location", data["plot_info"]["surveyors_location"] or ""
+            )
+            data["plot_info"]["surveyors_reg_number"] = st.text_input(
+                "Surveyor's Registration Number",
+                data["plot_info"]["surveyors_reg_number"],
             )
 
-    # Boundary Points Section
-    st.subheader("Edit Boundary Points")
-    for i, boundary in enumerate(data["boundary_points"]):
-        st.markdown(f"**Boundary Point {i+1}: {boundary['point']}**")
-        cols = st.columns(2)
-        with cols[0]:
-            boundary["northing"] = st.number_input(
-                f"Northing {i+1}", value=boundary["northing"]
-            )
-        with cols[1]:
-            boundary["easting"] = st.number_input(
-                f"Easting {i+1}", value=boundary["easting"]
-            )
+        # Survey Points Section
+        st.subheader("Edit Survey Points")
+        for i, point in enumerate(data["survey_points"]):
+            st.markdown(f"**Survey Point {i+1}: {point['point_name']}**")
+            cols = st.columns(3)
+            with cols[0]:
+                point["point_name"] = st.text_input(
+                    f"Point Name {i+1}", point["point_name"]
+                )
+            with cols[1]:
+                point["original_coords"]["x"] = st.number_input(
+                    f"X Coordinate {i+1}", value=point["original_coords"]["x"]
+                )
+            with cols[2]:
+                point["original_coords"]["y"] = st.number_input(
+                    f"Y Coordinate {i+1}", value=point["original_coords"]["y"]
+                )
 
-    # Save Functionality
-    # if st.button("Save Changes"):
-    compute_corrdinates = ComputeCoordinates()
-    new_data = compute_corrdinates.process_data(data)
-    st.session_state["processed_docs"][index] = new_data
+        # Boundary Points Section
+        st.subheader("Edit Boundary Points")
+        for i, boundary in enumerate(data["boundary_points"]):
+            st.markdown(f"**Boundary Point {i+1}: {boundary['point']}**")
+            cols = st.columns(2)
+            with cols[0]:
+                boundary["northing"] = st.number_input(
+                    f"Northing {i+1}", value=boundary["northing"]
+                )
+            with cols[1]:
+                boundary["easting"] = st.number_input(
+                    f"Easting {i+1}", value=boundary["easting"]
+                )
 
-    with st.expander(label="Updated Data", expanded=False):
-        markdown_content = format_to_markdown(data)
-        st.markdown(markdown_content)
+        # Save Functionality
+        # if st.button("Save Changes"):
+        compute_corrdinates = ComputeCoordinates()
+        new_data = compute_corrdinates.process_data(data)
+        st.session_state["processed_docs"][index] = data
 
-    plot_data(data=[data])
+        with st.expander(label="Updated Data", expanded=False):
+            markdown_content = format_to_markdown(data)
+            st.markdown(markdown_content)
+
+        plot_data(data=[data])
 
 
 def format_to_markdown(data):

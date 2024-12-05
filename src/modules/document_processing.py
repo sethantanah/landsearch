@@ -19,20 +19,13 @@ from openai import OpenAI
 import google.generativeai as genai
 
 from modules.site_data_processing import LandDataProcessor
+from modules.ocr import OCRDocumentLoader
 from modules.logging import setup_logger
 from utils.sample_data import sample_prompt_result
 
 client = OpenAI()
 
 MAX_RETRIES = 1
-
-# Configure logging
-# logging.basicConfig(
-#     level=logging.INFO,
-#     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
-#     handlers=[logging.FileHandler("document_processor.log"), logging.StreamHandler()],
-# )
-# logger = logging.getLogger(__name__)
 
 logger = setup_logger(name=__name__, log_dir="logs", level=logging.DEBUG)
 
@@ -64,6 +57,7 @@ class DocumentProcessor:
     ) -> ProcessingResult:
         """Main entry point for document processing."""
         try:
+            extracted_text: str = ""
             file_path = Path(file_path)
             logger.info(f"Starting processing of {file_path}")
 
@@ -77,8 +71,12 @@ class DocumentProcessor:
             else:
                 image = self._load_image(file_path)
 
+            if model_type == "GENERAL":
+                ocr = OCRDocumentLoader(image)
+                extracted_text = ocr.process_file()
+
             # Process image
-            return self._process_image(image, model_type)
+            return self._process_image(image, extracted_text,  model_type)
 
         except Exception as e:
             logger.error(f"Error processing document {file_path}: {str(e)}")
@@ -112,7 +110,7 @@ class DocumentProcessor:
             logger.error(f"Image loading failed: {str(e)}")
             raise
 
-    def _process_image(self, image: Image.Image, model_type: str) -> ProcessingResult:
+    def _process_image(self, image: Image.Image, extracted_text: str = "", model_type: str="") -> ProcessingResult:
         """Process image through LLM with retry mechanism."""
         retry_count = 0
 
@@ -124,20 +122,20 @@ class DocumentProcessor:
 
                 # Send to LLM for extraction
                 logger.info("LLM Processing Started")
-                result = self._send_to_llm(processed_image, model_type)
+                result = self._send_to_llm(processed_image, extracted_text, model_type)
                 logger.info("LLM Processing Completed")
 
                 # process extracted data
                 logger.info("Validation and Processing Started")
-                result = result = JSONProcessor.extract_json_safely(
+                result = JSONProcessor.extract_json_safely(
                     result
                 )
-                # print(result)
-                # result = self._process_site_data(result)
+
+                result = self._process_site_data(result)
                 logger.info("Validation and Processing Completed")
 
                 # # Validate result
-                if result:  # self._validate_result(result):
+                if result:
                     logger.info("Document processed successfully")
                     return ProcessingResult(
                         success=True, data={"image": processed_image, "results": result}
@@ -162,7 +160,7 @@ class DocumentProcessor:
     @backoff.on_exception(
         backoff.expo, requests.exceptions.RequestException, max_tries=MAX_RETRIES
     )
-    def _send_to_llm(self, image: Image.Image, model_type: str = "OPENAI") -> dict:
+    def _send_to_llm(self, image: Image.Image, site_plan_text: str = "", model_type: str = "OPENAI") -> dict:
         """Send image to LLM for analysis."""
 
         prompt: str = """
@@ -244,9 +242,12 @@ class DocumentProcessor:
                 - Pay special attention to coordinates and data tables. Ensure values align with their respective fields.
                 - For **site plan data**, prioritize structured table data if available. Use surrounding context for coordinate extraction when no table is present.
                 """
-
+        
         if model_type == "GEMINI":
             response = self._gemini_model(image, prompt)
+        elif model_type == "GENERAL":
+            prompt = prompt + f"\n SITE PLAN DOCUMENT:{site_plan_text}"
+            response = self._openai_text_model(prompt)
         else:
             response = self._openai_model(image, prompt)
         return response
@@ -296,12 +297,22 @@ class DocumentProcessor:
             )
 
             return response.choices[0].message.content
-
-            return sample_prompt_result
         except Exception as e:
             logger.info(f"OPENAI Failed to Extract Site Plan Data: {str(e)}")
             raise e
 
+    @staticmethod
+    def _openai_text_model(prompt: str) -> Union[str, any]:
+        logger.info(prompt)
+        response = client.chat.completions.create(
+            model="gpt-4o",
+            messages=[{"role": "user", "content": prompt}],
+            max_tokens=5000,
+            stream=False,
+        )
+
+        return response.choices[0].message.content
+    
     @staticmethod
     def _gemini_model(image: Image.Image, prompt: str) -> Union[str, any]:
         try:
@@ -313,7 +324,6 @@ class DocumentProcessor:
                 return response["candidates"][0]["content"]["parts"][0]["text"]
             except Exception:
                 return response
-            return sample_prompt_result
         except Exception as e:
             logger.info(f"GEMINI Failed to Extract Site Plan Data: {str(e)}")
             raise e
@@ -561,8 +571,6 @@ class JSONProcessor:
             logger.debug("Attempting Method 1: Markdown cleanup and direct parsing")
             cleaned_text = re.sub(r"```json|```", "", text).strip()
             logger.debug(f"Cleaned text length: {len(cleaned_text)} characters")
-            
-            print(cleaned_text)
 
             clean_json = json.dumps(cleaned_text)
             result = attempt_json_load(clean_json, "Method 1")
